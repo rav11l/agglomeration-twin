@@ -1,0 +1,49 @@
+{
+ "asif": {
+  "km": {
+   "лаишевский": 58,
+   "верхнеуслонский": 53,
+   "высокогорский": 21,
+   "зеленодольский": 38,
+   "пестречинский": 46
+  },
+  "car_kg_per_km": 0.17,
+  "occupancy": 1.3,
+  "pt_kg_per_pkm": 0.03,
+  "working_days": 250,
+  "car_share_default": 0.65,
+  "shift_pp_default": 15
+ },
+ "uplift": {
+  "open": 2028,
+  "end": 2046,
+  "cost_bn": 47,
+  "new_builds": {
+   "flats": 4758,
+   "m2_per_flat": 52,
+   "rub_per_m2": 240474
+  },
+  "premium_point": 0.065,
+  "premium_ci": [
+   -0.05,
+   0.2
+  ],
+  "rates": {
+   "flat": 0.001,
+   "land_housing": 0.003,
+   "commercial_building": 0.02,
+   "other_land": 0.015
+  },
+  "lag_years_default": 2
+ },
+ "pilot_city": {
+  "plan_growth_k": 516,
+  "plan_m2_mn": 54,
+  "employment_rate": 0.48,
+  "m2_per_resident": 30,
+  "people_per_train": 1000,
+  "peak_share": 0.7,
+  "residents_k_default": 100,
+  "local_jobs_share_default": 60
+ }
+}

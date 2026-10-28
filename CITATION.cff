@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "Если вы используете эти данные или код, сошлитесь на работу так:"
+title: "Двойник агломераций Татарстана / Tatarstan Agglomeration Twin"
+abstract: >-
+  Данные и код открытого цифрового двойника трёх агломераций Республики Татарстан:
+  балансовые модели, доступность, строящееся жильё у метро, возврат прироста
+  стоимости у второй линии метро, потоки и сценарий пилотного города.
+version: 0.1.0
+date-released: "2026-10-28"
+type: dataset
+license: CC-BY-4.0
+license-url: "https://creativecommons.org/licenses/by/4.0/"
+repository-code: "https://github.com/rav11l/agglomeration-twin"
+url: "https://digitaleconomylab.ru/agglomeration-twin"
+authors:
+  - family-names: "Akhtyamov"
+    given-names: "Ravil"
+    affiliation: "Digital Economy Lab"
+    orcid: "https://orcid.org/0000-0002-0783-8573"
+keywords:
+  - digital twin
+  - agglomeration
+  - Tatarstan
+  - accessibility
+  - land value capture
+  - open data
