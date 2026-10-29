@@ -1,9 +1,9 @@
 {
-  "title": "Двойник агломераций Татарстана / Tatarstan Agglomeration Twin, v0.1.0",
-  "version": "0.1.0",
+  "title": "Двойник агломераций Татарстана / Tatarstan Agglomeration Twin, v0.1.1",
+  "version": "0.1.1",
   "upload_type": "dataset",
-  "publication_date": "2026-10-28",
-  "description": "<p>Данные и код открытого цифрового двойника трёх агломераций Республики Татарстан (Казанской, Камской, Альметьевской), опубликованного на digitaleconomylab.ru/agglomeration-twin. Депозит содержит: балансовые модели по 45 муниципальным образованиям (население и работники по БД ПМО Росстата за 2024 год, матрица времени в пути OSRM, доступность рабочих мест, насыщенность, локальные центры); десять опорных кластеров периферии; строящееся жильё по ЕИСЖС на 27.10.2026 с расстояниями до действующего метро Казани и до станций второй линии; гедоническую регрессию премии за близость к метро; агрегаты кадастровой стоимости НСПД в километре от станций второй линии и расчёт возврата прироста стоимости через налоги на имущество и землю; плановые потоки по схеме мэрии Казани; число электричек, приходящих в Казань к 9:30; оценку выбросов CO₂ по методу ASIF и сценарий пилотного города. Все расчёты воспроизводятся скриптами из производных таблиц. Принцип — только открытые данные.</p><p>Data and code for an open digital twin of Tatarstan's three agglomerations (Kazan, Kama, Almetyevsk), published at digitaleconomylab.ru/agglomeration-twin: balance models for 45 municipalities (Rosstat population and employees 2024, OSRM travel-time matrix), ten peripheral clusters, housing under construction from the EISZhS register with distances to the existing metro and to the second line under construction, a hedonic estimate of the metro premium, NSPD cadastral aggregates around the new stations with a land-value-capture calculation, the Kazan city hall's planned commuter flows, morning trains to Kazan, an ASIF CO₂ estimate and a pilot-city scenario. All figures are reproduced by scripts from derived tables; open data only.</p>",
+  "publication_date": "2026-10-29",
+  "description": "<p>Данные и код открытого цифрового двойника трёх агломераций Республики Татарстан (Казанской, Камской, Альметьевской), опубликованного на digitaleconomylab.ru/agglomeration-twin. Депозит содержит: балансовые модели по 45 муниципальным образованиям (население и работники по БД ПМО Росстата за 2024 год, матрица времени в пути OSRM, доступность рабочих мест, насыщенность, локальные центры); десять опорных кластеров периферии; строящееся жильё по ЕИСЖС на 27.10.2026 с расстояниями до действующего метро Казани и до станций второй линии; гедоническую регрессию премии за близость к метро; агрегаты кадастровой стоимости НСПД в километре от станций второй линии и расчёт возврата прироста стоимости через налоги на имущество и землю; текущие потоки и матрицу ежедневных поездок ИПП РТ (данные сотовых операторов, 2022) по опубликованной статье и плановые потоки по схеме мэрии Казани; число электричек, приходящих в Казань к 9:30; оценку выбросов CO₂ по методу ASIF и сценарий пилотного города. Все расчёты воспроизводятся скриптами из производных таблиц. Принцип — только открытые данные.</p><p>Data and code for an open digital twin of Tatarstan's three agglomerations (Kazan, Kama, Almetyevsk), published at digitaleconomylab.ru/agglomeration-twin: balance models for 45 municipalities (Rosstat population and employees 2024, OSRM travel-time matrix), ten peripheral clusters, housing under construction from the EISZhS register with distances to the existing metro and to the second line under construction, a hedonic estimate of the metro premium, NSPD cadastral aggregates around the new stations with a land-value-capture calculation, the IPP RT 2022 trip matrix from mobile-operator data (as published) and the Kazan city hall's planned commuter flows, morning trains to Kazan, an ASIF CO₂ estimate and a pilot-city scenario. All figures are reproduced by scripts from derived tables; open data only.</p>",
   "creators": [
     {
       "name": "Akhtyamov, Ravil",
@@ -28,7 +28,15 @@
   "language": "rus",
   "access_right": "open",
   "related_identifiers": [
-    {"identifier": "https://github.com/rav11l/agglomeration-twin", "relation": "isSupplementTo", "scheme": "url"},
-    {"identifier": "https://digitaleconomylab.ru/agglomeration-twin", "relation": "isDocumentedBy", "scheme": "url"}
+    {
+      "identifier": "https://github.com/rav11l/agglomeration-twin",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://digitaleconomylab.ru/agglomeration-twin",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    }
   ]
 }

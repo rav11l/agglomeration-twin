@@ -6,6 +6,7 @@
  "data/hedonic_sample.csv": "a1ee9f0640e82fc0df00ef940226f77b8d8667aaa62f5fa62fac62ce5790f7be",
  "data/metro_stations.csv": "62a3b01dc4efa6f6b8c5859192fdc783a54f6e150c591415cb59f799f90ae68e",
  "data/nspd_line2_cadastre_aggregates.csv": "6b0db2d67a36d116ad45e36ae8444f9a16f51a6322a7106d8731b371930c6515",
+ "data/od_ipp_2022.csv": "b0a3220de4fcd3c5bd96325d2ae16d8e7d11cbc1865baf0ce523519932bc2d67",
  "data/osrm_minutes.csv": "e17284be94f216055c233dda5b69b8c4ec33dab4ddb149554fc5f2d9a413c5c7",
  "data/rail_to_kazan_by_0930.csv": "4dcc30206c412954f32add7694d75d754ed5e147d81a892d601eb7b7a6253c5b",
  "data/scenario_params.json": "c69296988eae390765d5d762328db9fe6fe7f6f2a814b066e65892526d13a3b1"
