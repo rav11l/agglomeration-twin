@@ -37,6 +37,7 @@ sh run_all.sh                                        # или четыре ск�
 | `data/hedonic_sample.csv` | выборка для регрессии премии за метро |
 | `data/nspd_line2_cadastre_aggregates.csv` | кадастровая стоимость участков и зданий в километре от станций второй линии |
 | `data/flows_mayor_scheme.csv` | потоки в Казань: «сейчас» — ИПП РТ (2022), «по плану» — схема мэрии |
+| `data/complex_scheme_224_targets.csv` | целевые показатели Комплексной схемы (КМ РТ № 224) к 2030 и 2050 годам |
 | `data/od_ipp_2022.csv` | матрица ежедневных поездок ИПП РТ, 2022 (опубликована в статье Юсуповой и соавт., 2024) |
 | `data/rail_to_kazan_by_0930.csv` | электрички, приходящие в Казань к 9:30, время в пути |
 | `data/scenario_params.json` | параметры сценариев по умолчанию — те же, что у ползунков страницы |
@@ -62,7 +63,7 @@ sh run_all.sh                                        # или четыре ск�
 
 Код — MIT (`LICENSE`), данные — CC BY 4.0 (`LICENSE-DATA.md`).
 
-Как ссылаться: Ахтямов Р. Двойник агломераций Татарстана: данные и код. Версия 0.1.0. Digital Economy Lab, 2026. DOI: [10.5281/zenodo.23725482](https://doi.org/10.5281/zenodo.23725482). DOI всех версий ведёт на последнюю; DOI версии 0.1.0 — 10.5281/zenodo.23725483.
+Как ссылаться: Ахтямов Р. Двойник агломераций Татарстана: данные и код. Версия 0.1.2. Digital Economy Lab, 2026. DOI: [10.5281/zenodo.23725482](https://doi.org/10.5281/zenodo.23725482). DOI всех версий ведёт на последнюю; DOI версии 0.1.0 — 10.5281/zenodo.23725483.
 
 ---
 
@@ -70,4 +71,4 @@ sh run_all.sh                                        # или четыре ск�
 
 Data and code behind the open digital twin of Tatarstan's three agglomerations at [digitaleconomylab.ru/agglomeration-twin](https://digitaleconomylab.ru/agglomeration-twin). Author: Ravil Akhtyamov, Digital Economy Lab. Open data only.
 
-Contents: balance models for 45 municipalities (Rosstat population and employees for 2024, OSRM car travel times); ten peripheral clusters covering 639k of 752k residents beyond 65 minutes from a core; housing under construction from the EISZhS register (18% of Kazan's flats under construction lie within 1 km of the metro, 28% with the second line); a hedonic metro premium of +6.5% (95% CI −5% to +20%); NSPD cadastral aggregates within 1 km of the new stations, with property and land taxes recovering about RUB 56 mn a year, roughly 2% of the RUB 47 bn section cost by 2046; planned commuter flows, morning trains, an ASIF CO₂ estimate and a pilot-city scenario. Run `sh run_all.sh` after `pip install -r requirements.txt`. Code MIT, data CC BY 4.0. Cite as: Akhtyamov R. Tatarstan Agglomeration Twin: data and code, v0.1.0. Digital Economy Lab, 2026. DOI 10.5281/zenodo.23725482.
+Contents: balance models for 45 municipalities (Rosstat population and employees for 2024, OSRM car travel times); ten peripheral clusters covering 639k of 752k residents beyond 65 minutes from a core; housing under construction from the EISZhS register (18% of Kazan's flats under construction lie within 1 km of the metro, 28% with the second line); a hedonic metro premium of +6.5% (95% CI −5% to +20%); NSPD cadastral aggregates within 1 km of the new stations, with property and land taxes recovering about RUB 56 mn a year, roughly 2% of the RUB 47 bn section cost by 2046; planned commuter flows, morning trains, an ASIF CO₂ estimate and a pilot-city scenario. Run `sh run_all.sh` after `pip install -r requirements.txt`. Code MIT, data CC BY 4.0. Cite as: Akhtyamov R. Tatarstan Agglomeration Twin: data and code, v0.1.2. Digital Economy Lab, 2026. DOI 10.5281/zenodo.23725482.
