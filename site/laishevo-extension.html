@@ -250,12 +250,12 @@ build();
 
 <!-- Twin back-to-top navigation -->
 <style>
-#tw-back-top{position:fixed;right:max(20px,env(safe-area-inset-right));bottom:max(20px,env(safe-area-inset-bottom));z-index:9000;display:inline-flex;align-items:center;justify-content:center;gap:8px;min-width:44px;min-height:44px;padding:10px 16px;border:1px solid #1d3c5c;border-radius:24px;background:#1d3c5c!important;color:#fff!important;box-shadow:0 3px 14px #14273826;font:600 14px/1.4 Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;cursor:pointer}
+#tw-back-top{position:fixed;right:max(24px,env(safe-area-inset-right));bottom:max(24px,env(safe-area-inset-bottom));z-index:9000;display:inline-flex;align-items:center;justify-content:center;box-sizing:border-box;width:56px;height:56px;min-width:44px;min-height:44px;padding:0!important;border:1px solid #142738;border-radius:2px;background:#f7f4ee!important;color:#142738!important;box-shadow:none;cursor:pointer}
 #tw-back-top[hidden]{display:none!important}
-#tw-back-top:hover{background:#142738!important}
+#tw-back-top:hover{background:#ebe7de!important}
 #tw-back-top:focus-visible{outline:3px solid #c9821f;outline-offset:3px}
-#tw-back-top span{color:inherit!important}
-@media(max-width:600px){#tw-back-top{right:max(12px,env(safe-area-inset-right));bottom:max(12px,env(safe-area-inset-bottom));padding:10px 14px}}
+#tw-back-top svg{display:block;pointer-events:none}
+@media(max-width:600px){#tw-back-top{right:max(12px,env(safe-area-inset-right));bottom:max(12px,env(safe-area-inset-bottom));width:48px;height:48px}}
 </style>
 <script>
 (function(){
@@ -263,9 +263,9 @@ build();
   if(!host||document.getElementById('tw-back-top'))return;
   const button=document.createElement('button');
   button.id='tw-back-top';button.type='button';button.hidden=true;
-  button.innerHTML='<span aria-hidden="true">↑</span><span class="tw-back-top-label"></span>';
+  button.innerHTML='<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5m-7 7 7-7 7 7"/></svg>';
   document.body.appendChild(button);
-  function label(){const en=host.getAttribute('data-lang')==='en';button.querySelector('.tw-back-top-label').textContent=en?'Back to top':'Наверх';button.setAttribute('aria-label',en?'Back to the top of the page':'Вернуться в начало страницы')}
+  function label(){const en=host.getAttribute('data-lang')==='en';button.setAttribute('aria-label',en?'Back to the top of the page':'Вернуться в начало страницы');button.title=en?'Back to top':'Наверх'}
   function visibility(){button.hidden=window.scrollY<500}
   button.addEventListener('click',function(){
     const heading=host.querySelector('h1');
