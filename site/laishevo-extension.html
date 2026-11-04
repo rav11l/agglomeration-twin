@@ -250,23 +250,24 @@ build();
 
 <!-- Twin back-to-top navigation -->
 <style>
-#tw-back-top{position:fixed;right:max(24px,env(safe-area-inset-right));bottom:max(24px,env(safe-area-inset-bottom));z-index:9000;display:inline-flex;align-items:center;justify-content:center;box-sizing:border-box;width:56px;height:56px;min-width:44px;min-height:44px;padding:0!important;border:1px solid #142738;border-radius:2px;background:#f7f4ee!important;color:#142738!important;box-shadow:none;cursor:pointer}
-#tw-back-top[hidden]{display:none!important}
-#tw-back-top:hover{background:#ebe7de!important}
+#tw-back-top{position:fixed;right:24px;bottom:24px;z-index:60;display:flex;align-items:center;justify-content:center;box-sizing:border-box;width:46px;height:46px;padding:0!important;border:1px solid #142233;border-radius:2px;background:#f7f4ee!important;color:#142233!important;box-shadow:none;cursor:pointer;opacity:0;visibility:hidden;transform:translateY(6px);transition:opacity .18s,transform .18s,visibility .18s,background .15s,color .15s}
+#tw-back-top.on{opacity:1;visibility:visible;transform:none}
+#tw-back-top:hover,#tw-back-top:active{background:#142233!important;color:#f7f4ee!important}
 #tw-back-top:focus-visible{outline:3px solid #c9821f;outline-offset:3px}
-#tw-back-top svg{display:block;pointer-events:none}
-@media(max-width:600px){#tw-back-top{right:max(12px,env(safe-area-inset-right));bottom:max(12px,env(safe-area-inset-bottom));width:48px;height:48px}}
+#tw-back-top svg{display:block;pointer-events:none;width:15px;height:15px;stroke:currentColor;stroke-width:1.8;fill:none}
+@media(max-width:640px){#tw-back-top{right:14px;bottom:14px;width:42px;height:42px}}
+@media(prefers-reduced-motion:reduce){#tw-back-top{transition:opacity .01s}}
 </style>
 <script>
 (function(){
   const host=document.getElementById('dgl-tw');
   if(!host||document.getElementById('tw-back-top'))return;
   const button=document.createElement('button');
-  button.id='tw-back-top';button.type='button';button.hidden=true;
-  button.innerHTML='<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5m-7 7 7-7 7 7"/></svg>';
+  button.id='tw-back-top';button.type='button';
+  button.innerHTML='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V6M6 12l6-6 6 6" stroke-linecap="round" stroke-linejoin="round"/></svg>';
   document.body.appendChild(button);
   function label(){const en=host.getAttribute('data-lang')==='en';button.setAttribute('aria-label',en?'Back to the top of the page':'Вернуться в начало страницы');button.title=en?'Back to top':'Наверх'}
-  function visibility(){button.hidden=window.scrollY<500}
+  function visibility(){button.classList.toggle('on',window.scrollY>=500)}
   button.addEventListener('click',function(){
     const heading=host.querySelector('h1');
     if(heading){heading.setAttribute('tabindex','-1');heading.focus({preventScroll:true})}
