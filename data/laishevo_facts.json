@@ -1,0 +1,132 @@
+{
+  "checked_at": "2026-11-04",
+  "records": [
+    {
+      "id": "concept_author",
+      "value": "ИПП РТ",
+      "status": "confirmed_attribution",
+      "source_ids": [
+        "air",
+        "ipp"
+      ],
+      "note": "ИПП РТ разработал и представил концепцию; АИР РТ — площадка презентации 03.11.2026."
+    },
+    {
+      "id": "city_population_reference",
+      "value": 10700,
+      "unit": "people",
+      "status": "reported_current_figure",
+      "source_ids": [
+        "population"
+      ],
+      "note": "Город Лаишево, не район; не самостоятельная перепись."
+    },
+    {
+      "id": "city_population_target_2050",
+      "value": 17000,
+      "unit": "people",
+      "status": "concept_target",
+      "source_ids": [
+        "population"
+      ],
+      "note": "Ориентир концепции; не утверждённый план строительства."
+    },
+    {
+      "id": "beach_simultaneous_visitors",
+      "value": 3000,
+      "comparator": "greater_than",
+      "unit": "people simultaneously",
+      "status": "reported_peak",
+      "source_ids": [
+        "beach"
+      ],
+      "note": "Сообщалось о более чем 3000 одновременно. Не суточный и не годовой поток; 3000 в модели — условная базовая точка."
+    },
+    {
+      "id": "airport_rail",
+      "value": "Kazan–airport",
+      "status": "operating",
+      "source_ids": [
+        "ppk"
+      ],
+      "note": "Поезда доходят до аэропорта, не до города Лаишево."
+    },
+    {
+      "id": "laishevo_rail_extension",
+      "value": "airport–Laishevo / Kazan Marina",
+      "status": "announced_proposal",
+      "source_ids": [
+        "rail",
+        "rail2026"
+      ],
+      "approved_opening_date": null,
+      "confirmed_construction_funding": null,
+      "note": "В проверенных материалах сроки ввода и финансирование строительства не установлены. Учёт трассы в концепции не равен началу строительства."
+    },
+    {
+      "id": "southern_corridor",
+      "value": [
+        "Алексеевское",
+        "Чистополь",
+        "Нижнекамск",
+        "Набережные Челны"
+      ],
+      "horizon": 2060,
+      "status": "long_term_announcement_2025",
+      "source_ids": [
+        "rail"
+      ],
+      "note": "Перечень направлений, не утверждённая трасса или гарантированные остановки."
+    },
+    {
+      "id": "brighton_employee_jobs",
+      "value": 146000,
+      "unit": "employee jobs",
+      "period": "2024",
+      "status": "published_statistic_comparator",
+      "source_ids": [
+        "nomis"
+      ],
+      "note": "Рабочие места на территории Brighton & Hove; не структура занятости всех жителей."
+    },
+    {
+      "id": "brighton_employee_job_shares",
+      "value": {
+        "health_social": 18.5,
+        "education": 11.6,
+        "retail": 11,
+        "hospitality": 11,
+        "professional_technical": 8.2,
+        "information_communication": 6.2,
+        "finance": 5.5
+      },
+      "unit": "percent of employee jobs",
+      "period": "2024",
+      "status": "published_statistic_comparator",
+      "source_ids": [
+        "nomis"
+      ],
+      "note": "Перечислены отдельные отрасли, сумма не обязана равняться 100%."
+    },
+    {
+      "id": "brighton_population",
+      "value": 284200,
+      "unit": "people",
+      "period": "2025 estimate",
+      "status": "published_statistic_comparator",
+      "source_ids": [
+        "nomis"
+      ]
+    },
+    {
+      "id": "london_brighton_fastest_train",
+      "value": 58,
+      "unit": "minutes",
+      "status": "advertised_minimum_station_to_station",
+      "source_ids": [
+        "nationalrail"
+      ],
+      "note": "Не среднее время, не время от двери до двери и не параметр модели Лаишево."
+    }
+  ]
+}

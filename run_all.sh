@@ -6,3 +6,4 @@ python scripts/balance.py
 python scripts/clusters.py
 python scripts/hedonic.py
 python scripts/scenarios.py
+node scripts/laishevo.mjs

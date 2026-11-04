@@ -4,7 +4,22 @@
 
 Данные и код открытого цифрового двойника трёх агломераций Республики Татарстан — Казанской, Камской и Альметьевской. Страница двойника: [digitaleconomylab.ru/agglomeration-twin](https://digitaleconomylab.ru/agglomeration-twin).
 
-Автор — Равиль Ахтямов, Digital Economy Lab. Принцип — только открытые данные: каждое число страницы можно пересчитать из таблиц этого репозитория.
+Автор — Равиль Ахтямов, Digital Economy Lab. Принцип — только открытые данные: расчётные показатели воспроизводятся из таблиц и явных сценарных допущений; источники справочных сведений указаны отдельно.
+
+## Новое в v0.1.3: Лаишево и второй пояс
+
+Три сценарных блока связывают постоянное заселение, летний пик и поездку от двери до двери. По умолчанию выбран второй вариант — рост по готовности инфраструктуры. [Метод и ограничения](LAISHEVO.md), [реестр источников](data/laishevo_sources.csv).
+
+Новые расчёты выполняются без сети в Node.js 18 или новее:
+
+```bash
+node scripts/laishevo.mjs
+node --test tests/laishevo.test.mjs
+```
+
+Открыть `site/laishevo-standalone.html` можно прямо в браузере; доступны RU/EN и все три сценария. `site/laishevo-extension.html` — дополнение к существующему двойнику. `site/agglomeration-twin_page.html` — снимок основного кода вместе с дополнением; отдельный блок СберИндекса, как и раньше, не включён.
+
+Факты и статусы планов хранятся в `data/laishevo_facts.json`, допущения — в `data/laishevo_scenarios.json`, результаты девяти комбинаций — в `outputs/laishevo_scenarios.csv`. Проверенное авторство концепции: ИПП РТ; АИР РТ — площадка презентации.
 
 ## Результаты в шести строках
 
@@ -24,10 +39,10 @@
 ```bash
 python -m venv .venv && . .venv/bin/activate        # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
-sh run_all.sh                                        # или четыре скрипта из scripts/ по очереди
+sh run_all.sh                                        # четыре Python-скрипта и расчёт Лаишево в Node.js
 ```
 
-Скрипты пишут таблицы в `outputs/` и печатают ключевые числа страницы. Сеть не нужна.
+Для полного запуска нужен также Node.js 18+. Скрипты пишут таблицы в `outputs/` и печатают ключевые числа страницы. Сеть не нужна.
 
 ## Что внутри
 
@@ -67,7 +82,7 @@ sh run_all.sh                                        # или четыре ск�
 
 Код — MIT (`LICENSE`), данные — CC BY 4.0 (`LICENSE-DATA.md`).
 
-Как ссылаться: Ахтямов Р. Двойник агломераций Татарстана: данные и код. Версия 0.1.2. Digital Economy Lab, 2026. DOI: [10.5281/zenodo.23725482](https://doi.org/10.5281/zenodo.23725482). DOI всех версий ведёт на последнюю; DOI версии 0.1.0 — 10.5281/zenodo.23725483.
+Как ссылаться: Ахтямов Р. Двойник агломераций Татарстана: данные и код. Версия 0.1.3. Digital Economy Lab, 2026. DOI: [10.5281/zenodo.23725482](https://doi.org/10.5281/zenodo.23725482). DOI всех версий ведёт на последнюю; DOI версии 0.1.0 — 10.5281/zenodo.23725483.
 
 ---
 
@@ -75,8 +90,12 @@ sh run_all.sh                                        # или четыре ск�
 
 Data and code behind the open digital twin of Tatarstan's three agglomerations at [digitaleconomylab.ru/agglomeration-twin](https://digitaleconomylab.ru/agglomeration-twin). Author: Ravil Akhtyamov, Digital Economy Lab. Open data only.
 
-Contents: balance models for 45 municipalities (Rosstat population and employees for 2024, OSRM car travel times); ten peripheral clusters covering 639k of 752k residents beyond 65 minutes from a core; housing under construction from the EISZhS register (18% of Kazan's flats under construction lie within 1 km of the metro, 28% with the second line); a hedonic metro premium of +6.5% (95% CI −5% to +20%); NSPD cadastral aggregates within 1 km of the new stations, with property and land taxes recovering about RUB 56 mn a year, roughly 2% of the RUB 47 bn section cost by 2046; planned commuter flows, morning trains, an ASIF CO₂ estimate and a pilot-city scenario. Run `sh run_all.sh` after `pip install -r requirements.txt`. Code MIT, data CC BY 4.0. Cite as: Akhtyamov R. Tatarstan Agglomeration Twin: data and code, v0.1.2. Digital Economy Lab, 2026. DOI 10.5281/zenodo.23725482.
+Contents: balance models for 45 municipalities (Rosstat population and employees for 2024, OSRM car travel times); ten peripheral clusters covering 639k of 752k residents beyond 65 minutes from a core; housing under construction from the EISZhS register (18% of Kazan's flats under construction lie within 1 km of the metro, 28% with the second line); a hedonic metro premium of +6.5% (95% CI −5% to +20%); NSPD cadastral aggregates within 1 km of the new stations, with property and land taxes recovering about RUB 56 mn a year, roughly 2% of the RUB 47 bn section cost by 2046; planned commuter flows, morning trains, an ASIF CO₂ estimate and a pilot-city scenario. Run `sh run_all.sh` after `pip install -r requirements.txt`. Code MIT, data CC BY 4.0. Cite as: Akhtyamov R. Tatarstan Agglomeration Twin: data and code, v0.1.3. Digital Economy Lab, 2026. DOI 10.5281/zenodo.23725482.
 
 ### Related publication
 
 Ravil Akhtyamov. [“Strategy 2050: promise not trillions, but what will reach residents”](https://realnoevremya.ru/articles/410028-strategiya-2050-obeschat-ne-trilliony-a-to-chto-doydt-do-zhitelya) — Realnoe Vremya, 4 November 2026 (in Russian). The column uses the twin’s data on consumer-spending gaps between the belts of Tatarstan’s agglomerations.
+
+### Laishevo additions in v0.1.3
+
+Settlement, simultaneous summer demand and door-to-door accessibility are sensitivity models, not forecasts. Run `node scripts/laishevo.mjs` and `node --test tests/laishevo.test.mjs` with Node.js 18+. Open `site/laishevo-standalone.html` for the bilingual interface. See `LAISHEVO.md` for formulas, source status and second-belt limitations.

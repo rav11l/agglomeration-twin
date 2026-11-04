@@ -1,0 +1,30 @@
+{
+  "checked_at": "2026-11-04",
+  "profile": "driving",
+  "coordinate_order": "longitude,latitude",
+  "licence_note": "Derived routing values; routing data © OpenStreetMap contributors. Not railway distances.",
+  "routes": [
+    {
+      "id": "london-brighton",
+      "coordinates": [
+        -0.1439,
+        51.4964,
+        -0.141,
+        50.829
+      ],
+      "url": "https://router.project-osrm.org/route/v1/driving/-0.1439,51.4964;-0.141,50.829?overview=false",
+      "km": 86.1199
+    },
+    {
+      "id": "kazan-laishevo",
+      "coordinates": [
+        49.0857,
+        55.7885,
+        49.55,
+        55.4035
+      ],
+      "url": "https://router.project-osrm.org/route/v1/driving/49.0857,55.7885;49.55,55.4035?overview=false",
+      "km": 61.1376
+    }
+  ]
+}

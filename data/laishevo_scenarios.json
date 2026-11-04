@@ -1,0 +1,135 @@
+{
+  "version": "0.1.3",
+  "checked_at": "2026-11-04",
+  "description": "Sensitivity assumptions. No slider value is an approved housing, transport or parking programme.",
+  "population_reference": {
+    "current_city_population": 10700,
+    "target_city_population": 17000,
+    "target_year": 2050,
+    "scope": "Laishevo city, not Laishevsky District",
+    "status": "reported presentation figures; target is a concept, not an approved housing programme",
+    "source_id": "population"
+  },
+  "defaults": {
+    "alt": "phased",
+    "units": 2000,
+    "occupied": 70,
+    "household": 2.5,
+    "employed": 55,
+    "localJobs": 40,
+    "visitors": 3000,
+    "carOccupancy": 3,
+    "parking": 500,
+    "stress": 100,
+    "walk": 10,
+    "feeder": 30,
+    "wait": 15,
+    "ride": 45,
+    "last": 10,
+    "limit": 90
+  },
+  "ranges": {
+    "units": [
+      0,
+      6000,
+      100
+    ],
+    "occupied": [
+      0,
+      100,
+      5
+    ],
+    "household": [
+      1,
+      4,
+      0.1
+    ],
+    "employed": [
+      0,
+      100,
+      5
+    ],
+    "localJobs": [
+      0,
+      100,
+      5
+    ],
+    "visitors": [
+      0,
+      30000,
+      100
+    ],
+    "carOccupancy": [
+      1,
+      5,
+      0.1
+    ],
+    "parking": [
+      0,
+      4000,
+      50
+    ],
+    "walk": [
+      0,
+      45,
+      5
+    ],
+    "feeder": [
+      0,
+      120,
+      5
+    ],
+    "wait": [
+      0,
+      60,
+      5
+    ],
+    "ride": [
+      0,
+      180,
+      5
+    ],
+    "last": [
+      0,
+      60,
+      5
+    ],
+    "limit": [
+      30,
+      180,
+      5
+    ]
+  },
+  "alternatives": {
+    "bus": {
+      "name_ru": "Автобусы и местная работа",
+      "name_en": "Buses and local jobs",
+      "car_share_pct": 70,
+      "car_share_status": "illustrative assumption, not observed or a proven causal effect",
+      "housing_ru": "Небольшие очереди жилья рядом с существующими услугами; заказчики рабочих мест определены до расширения застройки.",
+      "housing_en": "Small housing phases near existing services; employers identified before expansion.",
+      "second_belt_ru": "Первый шаг — прямые регулярные маршруты из выбранных населённых пунктов второго пояса к работе, учёбе и медицине. Расписание под смены, а не только под пляж.",
+      "second_belt_en": "Start with regular direct routes from selected second-belt settlements to work, education and healthcare. Timetables match shifts, not just beach demand."
+    },
+    "phased": {
+      "name_ru": "Рост по готовности инфраструктуры",
+      "name_en": "Growth tied to infrastructure",
+      "car_share_pct": 50,
+      "car_share_status": "illustrative assumption, not observed or a proven causal effect",
+      "housing_ru": "Каждая очередь жилья связана с вводом услуг, рабочих мест и транспорта. Сначала проверяется спрос на подвоз к действующей аэропортовой ветке.",
+      "housing_en": "Each housing phase is tied to services, jobs and transport. Test demand for feeders to the existing airport line first.",
+      "second_belt_ru": "Подвоз проверяется на конкретных маршрутах второго пояса. Сравниваются прямая поездка и вариант через станцию: пересадка может удлинить путь.",
+      "second_belt_en": "Test feeders on specific second-belt routes. Compare a direct service with a station transfer: changing vehicles can make a trip longer."
+    },
+    "rail": {
+      "name_ru": "Рост с новой железной дорогой",
+      "name_en": "Growth with a new railway",
+      "car_share_pct": 35,
+      "car_share_status": "illustrative assumption, not observed or a proven causal effect",
+      "housing_ru": "Новые очереди у будущего узла — после утверждения места станции, финансирования и программы движения. Постоянная работа в городе остаётся отдельной задачей.",
+      "housing_en": "New housing near a future hub follows a confirmed station location, funding and service plan. Local year-round jobs remain a separate requirement.",
+      "second_belt_ru": "Продление только до Лаишево не даёт второму поясу собственных станций. Для Алексеевского и Чистопольского направлений нужен следующий этап; для остальных — отдельный подвоз.",
+      "second_belt_en": "An extension only to Laishevo gives the second belt no stations of its own. Alekseevsky and Chistopolsky directions require a later stage; other areas need feeders."
+    }
+  }
+}
