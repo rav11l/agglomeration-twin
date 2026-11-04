@@ -7,13 +7,13 @@ abstract: >-
   стоимости у второй линии метро, потоки, сценарий пилотного города, заселение Лаишево, летний пик и
   доступность второго пояса от двери до двери.
 version: 0.1.3
-doi: "10.5281/zenodo.23725482"
+doi: "10.5281/zenodo.23962133"
 date-released: "2026-11-04"
 type: dataset
 license: CC-BY-4.0
 license-url: "https://creativecommons.org/licenses/by/4.0/"
 repository-code: "https://github.com/rav11l/agglomeration-twin"
-url: "https://doi.org/10.5281/zenodo.23725482"
+url: "https://doi.org/10.5281/zenodo.23962133"
 authors:
   - family-names: "Akhtyamov"
     given-names: "Ravil"
