@@ -23,7 +23,7 @@ node --test tests/laishevo.test.mjs
 
 ## Результаты в шести строках
 
-1. **Работа далеко от периферии.** 27 районов из 45 лежат дальше 65 минут на машине от ядра агломерации; в них живут 752 тыс. человек.
+1. **Работа далеко от периферии.** 27 из 45 муниципалитетов лежат дальше 65 минут на машине от ядра агломерации; в них живут 752 тыс. человек.
 2. **Локальные центры есть.** По отношению работников к населению относительно пяти ближайших соседей выделяются Сабинский (1,91), Верхнеуслонский (1,88), Елабужский (1,73), Альметьевский (1,52), Зеленодольский (1,36) и Тюлячинский (1,23) районы.
 3. **Десять кластеров покрывают 639 тыс. жителей периферии** — 85 % при радиусе 50 минут; шесть районов остаются вне кластеров.
 4. **Метро и стройка.** 18 % строящихся квартир Казани находятся в километре от действующего метро; с первым участком второй линии — 28 % (+4 758 квартир, в основном у станции «Тулпар»).
@@ -65,7 +65,7 @@ sh run_all.sh                                        # четыре Python-ск�
 | `scripts/hedonic.py` | премия за близость к метро |
 | `scripts/scenarios.py` | ASIF, возврат прироста у второй линии, пилотный город |
 | `scripts/nspd_classify.js` | правило классификации объектов НСПД |
-| `site/agglomeration-twin_page.html` | снимок кода страницы на дату выпуска |
+| `site/agglomeration-twin_page.html` | код страницы; архив выпуска зафиксирован в Zenodo |
 | `DATA.md` | паспорт данных: источник, дата и способ получения каждого файла |
 
 ## Чего здесь нет
@@ -99,3 +99,9 @@ Ravil Akhtyamov. [“Strategy 2050: promise not trillions, but what will reach r
 ### Laishevo additions in v0.1.3
 
 Settlement, simultaneous summer demand and door-to-door accessibility are sensitivity models, not forecasts. Run `node scripts/laishevo.mjs` and `node --test tests/laishevo.test.mjs` with Node.js 18+. Open `site/laishevo-standalone.html` for the bilingual interface. See `LAISHEVO.md` for formulas, source status and second-belt limitations.
+
+## Исправления сайта после v0.1.3 — 06.11.2026
+
+Уточнены подписи RU/EN: 45 муниципалитетов, расстояния до метро по прямой, реализованные слои и следующие шаги. Сравнение налога на жильё организаций согласовано с WP-2026-07 v1.6: условный сценарий с 2028 года — 2,2 млрд руб. для всех организаций, из них 0,72 млрд для застройщиков. Законопроект № 229-7 на 05.11.2026 не принят; оценка не является официальным прогнозом. Код страницы в основной ветке содержит эти исправления. Архив v0.1.3 в Zenodo остаётся снимком выпуска от 04.11.2026; исходные данные и расчёты этого выпуска не заменены.
+
+Post-release website corrections, 6 November 2026: RU/EN labels now distinguish municipalities, straight-line metro radii, implemented layers and next steps. The corporate-housing tax comparison follows WP-2026-07 v1.6: a conditional scenario of RUB 2.2 bn for all organisations from 2028, including RUB 0.72 bn for developers. Bill No. 229-7 was not enacted as of 5 November 2026; this is not an official revenue forecast. The main-branch page code includes these corrections. The Zenodo v0.1.3 archive remains the 4 November release snapshot; its source data and calculations have not been replaced.
