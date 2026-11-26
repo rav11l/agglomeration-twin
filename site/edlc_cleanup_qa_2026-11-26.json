@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-26",
+  "page": "https://digitaleconomylab.ru/edlc",
+  "tilda_pageid": "228135109",
+  "kept_record": "3654487001",
+  "removed_duplicate_record": "6267728401",
+  "removed_gallery_records": [
+    "6266920701",
+    "6268220301"
+  ],
+  "original_block_unchanged": true,
+  "published": true,
+  "final_mobile": {
+    "clientWidth": 337,
+    "duplicateIds": [],
+    "footers": 1,
+    "frames": 1,
+    "galleries": 0,
+    "headings": 1,
+    "noteScrollWidth": 298,
+    "noteTop": 1279.328125,
+    "noteWidth": 298,
+    "scrollWidth": 337,
+    "url": "https://digitaleconomylab.ru/edlc",
+    "width": 340,
+    "wp10BeforeCalculator": true,
+    "wp10Heading": "WP10 · экономика подключения",
+    "wp10Notes": 1
+  },
+  "english": {
+    "frames": 1,
+    "galleries": 0,
+    "headings": 1,
+    "lang": "en",
+    "note_language_verified": true
+  },
+  "calculator_result": "$6,292 итого",
+  "wp10_scenario": {
+    "fixed": 120000,
+    "savings_per_shipment": 600,
+    "shipments": 300,
+    "threshold": 200,
+    "net": 60000
+  },
+  "method": "Browser UI checks on the published page; mobile CSS checked at 340 CSS px using zoom.",
+  "original_main_block_sha256": "64950391f9768fbffdb75395d02ede4393bf3367365a39318f4826d12edffd0a",
+  "original_duplicate_identical": true
+}
