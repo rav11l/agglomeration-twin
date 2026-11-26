@@ -325,7 +325,9 @@
     "version": "0.3.1",
     "wp7_update_published": true,
     "range_loader_saved": true,
-    "range_loader_published": null
+    "range_loader_published": null,
+    "browser_check_passed": true,
+    "public_browser_report": "site/public_browser_check_2026-11-26.json"
   },
   "zenodo": {
     "record_id": "24563288",

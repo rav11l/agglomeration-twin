@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-26",
+  "url": "https://digitaleconomylab.ru/agglomeration-twin?lang=ru",
+  "verification": "Independent read-only browser check",
+  "run_url": "https://agent.tinyfish.ai/runs/57307680-4c36-4e55-9c88-1171ea79fd42",
+  "status": "passed",
+  "municipality_selector_count": 45,
+  "map_layers": 7,
+  "portal_postings_total": 10401,
+  "unresolved_postings": 99,
+  "kazan_postings": 2638,
+  "kazan_vacancy_rows_visible": true,
+  "version_badge": "Версия 0.3.1 · 26.11.2026",
+  "loading_errors_observed": false,
+  "wp7_adoption_date_visible": "2026-11-19",
+  "author_and_ministry_scenarios_distinguished": true,
+  "shared_site_search_updated": false,
+  "zenodo_published": false
+}
