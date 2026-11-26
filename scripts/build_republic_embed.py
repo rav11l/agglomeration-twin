@@ -45,15 +45,36 @@ def build(data_ref):
   'use strict';
   const host=document.getElementById('tw-republic-2026');
   if(!host||host.shadowRoot)return;
+  const target=document.getElementById('tw-s-lvl');
+  if(target){target.before(host);host.style.padding='0';}
+  const nav=document.getElementById('tw-nav');
+  if(nav&&!nav.querySelector('a[href="#tw-republic-2026"]')){
+    const link=document.createElement('a');link.href='#tw-republic-2026';
+    link.innerHTML='<span data-ru>Работа и вакансии · 45 МО</span><span data-en>Jobs and vacancies · 45 municipalities</span>';
+    nav.appendChild(link);
+  }
   const root=host.attachShadow({mode:'open'});
   host.replaceChildren();
   root.innerHTML='<p role="status" style="font:14px/1.6 Inter,sans-serif;color:#5F6873">Загрузка карты всех 45 муниципалитетов…</p>';
   async function load(){
     try{
       if(!window.DecompressionStream)throw new Error('browser');
-      const response=await fetch(DATA_URL,{signal:AbortSignal.timeout(60000)});
-      if(!response.ok)throw new Error('HTTP '+response.status);
-      const buffer=await response.arrayBuffer();
+      const total=__BYTES__,step=131072;
+      let loaded=0;
+      const chunks=await Promise.all(Array.from({length:Math.ceil(total/step)},async(_,index)=>{
+        const from=index*step,to=Math.min(total-1,from+step-1);
+        const response=await fetch(DATA_URL,{headers:{Range:'bytes='+from+'-'+to},signal:AbortSignal.timeout(25000)});
+        if(response.status!==206)throw new Error('HTTP '+response.status);
+        const bytes=new Uint8Array(await response.arrayBuffer());
+        if(bytes.length!==to-from+1)throw new Error('range length');
+        loaded+=bytes.length;
+        const status=root.querySelector('[role="status"]');
+        if(status)status.textContent='Загрузка данных карты · '+Math.round(loaded/total*100)+'%';
+        return bytes;
+      }));
+      const combined=new Uint8Array(total);
+      chunks.forEach((bytes,index)=>combined.set(bytes,index*step));
+      const buffer=combined.buffer;
       const actual=[...new Uint8Array(await crypto.subtle.digest('SHA-256',buffer))].map(x=>x.toString(16).padStart(2,'0')).join('');
       if(actual!==DATA_SHA256)throw new Error('checksum');
       const stream=new Blob([buffer]).stream().pipeThrough(new DecompressionStream('gzip'));
@@ -75,6 +96,7 @@ MODULE_CODE
 </script>
 ''' + END
     module = module.replace('MODULE_CODE', code).replace('__URL__', json.dumps(url))
+    module = module.replace('__BYTES__', str(compressed.stat().st_size))
     module = module.replace('__HASH__', json.dumps(digest)).replace('__HTML__', json.dumps(html, ensure_ascii=False))
     (ROOT / 'site/republic_embed.html').write_text(module, encoding='utf-8')
     page_path = ROOT / 'site/agglomeration-twin_page.html'

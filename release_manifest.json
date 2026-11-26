@@ -9,6 +9,7 @@
     "LAISHEVO.md",
     "LICENSE",
     "LICENSE-DATA.md",
+    "PUBLICATION.md",
     "README.md",
     "data/agglomerations.json",
     "data/brighton_road_comparison.json",
@@ -33,6 +34,7 @@
     "data/republic/vacancies_2026-11-26.json.gz",
     "data/scenario_params.json",
     "data/southeast/baseline_2024.csv",
+    "data/wp7_alignment_2026-11-26.json",
     "outputs/clusters.csv",
     "outputs/districts_balance.csv",
     "outputs/laishevo_scenarios.csv",
@@ -77,6 +79,8 @@
     "site/republic_embed.html",
     "site/republic_fonts.css",
     "site/republic_template.html",
-    "tests/laishevo.test.mjs"
+    "site/sitewide_audit_2026-11-26.json",
+    "tests/laishevo.test.mjs",
+    "tests/site_syntax.cjs"
   ]
 }

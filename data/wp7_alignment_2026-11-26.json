@@ -1,0 +1,28 @@
+{
+  "wp": "WP-2026-07",
+  "version": "1.7",
+  "paper_date": "2026-11-18",
+  "status_checked_in_wp": "2026-11-26",
+  "bill": "229-7",
+  "parliament_adoption": "2026-11-19",
+  "resolution": "775-VII ГС",
+  "final_signed_text_verified": false,
+  "calculation_basis": "introduced bill, 2026-10-31",
+  "author_scenario_rub_bn": {
+    "total_2027": 1.08,
+    "total_2028": 2.15,
+    "developers_2027": 0.36,
+    "developers_2028": 0.72
+  },
+  "ministry_estimate_reported_in_wp_rub_bn": {
+    "total_2027": 0.9,
+    "total_2028": 1.8,
+    "developers_2027": 0.2
+  },
+  "note": "Different coverage and methods; these are scenarios/forecasts, not observed tax receipts.",
+  "sources": [
+    "https://digitaleconomylab.ru/wp-2026-07",
+    "https://gossov.tatarstan.ru/activity/lawmaking/zakon_project?bill_id=944",
+    "https://gossov.tatarstan.ru/file/gossov/docs/regulation_69573.pdf"
+  ]
+}

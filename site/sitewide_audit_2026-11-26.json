@@ -1,0 +1,336 @@
+{
+  "date": "2026-11-26",
+  "scope": "Twin and WP7 current references; historical release notes retain original dates",
+  "checked_urls": 30,
+  "pages": [
+    {
+      "url": "https://digitaleconomylab.ru/page151302696.html",
+      "status": 200,
+      "file": "page151302696.html.html",
+      "pageid": "151302696",
+      "oldTwinSearchCount": 1,
+      "searchInHead": true,
+      "oldTwinTotal": 1,
+      "oldTaxStatus": false
+    },
+    {
+      "url": "https://digitaleconomylab.ru/en",
+      "status": 200,
+      "file": "en.html",
+      "pageid": "79916256",
+      "oldTwinSearchCount": 1,
+      "searchInHead": true,
+      "oldTwinTotal": 1,
+      "oldTaxStatus": false
+    },
+    {
+      "url": "https://digitaleconomylab.ru/offer-check",
+      "status": 200,
+      "file": "offer-check.html",
+      "pageid": "207491009",
+      "oldTwinSearchCount": 1,
+      "searchInHead": true,
+      "oldTwinTotal": 1,
+      "oldTaxStatus": false
+    },
+    {
+      "url": "https://digitaleconomylab.ru/edlc",
+      "status": 200,
+      "file": "edlc.html",
+      "pageid": "228135109",
+      "oldTwinSearchCount": 1,
+      "searchInHead": true,
+      "oldTwinTotal": 1,
+      "oldTaxStatus": false
+    },
+    {
+      "url": "https://digitaleconomylab.ru/page75966276.html",
+      "status": 200,
+      "file": "page75966276.html.html",
+      "pageid": "342540309",
+      "oldTwinSearchCount": 2,
+      "searchInHead": true,
+      "oldTwinTotal": 11,
+      "oldTaxStatus": false
+    },
+    {
+      "url": "https://digitaleconomylab.ru/land-audit",
+      "status": 200,
+      "file": "land-audit.html",
+      "pageid": "242714409",
+      "oldTwinSearchCount": 1,
+      "searchInHead": true,
+      "oldTwinTotal": 1,
+      "oldTaxStatus": false
+    },
+    {
+      "url": "https://digitaleconomylab.ru/wp-2026-04",
+      "status": 200,
+      "file": "wp-2026-04.html",
+      "pageid": "264285109",
+      "oldTwinSearchCount": 1,
+      "searchInHead": true,
+      "oldTwinTotal": 1,
+      "oldTaxStatus": false
+    },
+    {
+      "url": "https://digitaleconomylab.ru/wp-2026-03",
+      "status": 200,
+      "file": "wp-2026-03.html",
+      "pageid": "241988709",
+      "oldTwinSearchCount": 1,
+      "searchInHead": true,
+      "oldTwinTotal": 1,
+      "oldTaxStatus": false
+    },
+    {
+      "url": "https://digitaleconomylab.ru/stress-check",
+      "status": 200,
+      "file": "stress-check.html",
+      "pageid": "246614309",
+      "oldTwinSearchCount": 1,
+      "searchInHead": true,
+      "oldTwinTotal": 1,
+      "oldTaxStatus": false
+    },
+    {
+      "url": "https://digitaleconomylab.ru/sberindex-shocks",
+      "status": 200,
+      "file": "sberindex-shocks.html",
+      "pageid": "247145009",
+      "oldTwinSearchCount": 1,
+      "searchInHead": true,
+      "oldTwinTotal": 1,
+      "oldTaxStatus": false
+    },
+    {
+      "url": "https://digitaleconomylab.ru/llm-check",
+      "status": 200,
+      "file": "llm-check.html",
+      "pageid": "275043409",
+      "oldTwinSearchCount": 1,
+      "searchInHead": true,
+      "oldTwinTotal": 1,
+      "oldTaxStatus": false
+    },
+    {
+      "url": "https://digitaleconomylab.ru/wp",
+      "status": 200,
+      "file": "wp.html",
+      "pageid": "266742609",
+      "oldTwinSearchCount": 1,
+      "searchInHead": true,
+      "oldTwinTotal": 1,
+      "oldTaxStatus": false
+    },
+    {
+      "url": "https://digitaleconomylab.ru/sberindex-clusters",
+      "status": 200,
+      "file": "sberindex-clusters.html",
+      "pageid": "289107809",
+      "oldTwinSearchCount": 1,
+      "searchInHead": true,
+      "oldTwinTotal": 1,
+      "oldTaxStatus": false
+    },
+    {
+      "url": "https://digitaleconomylab.ru/wp-2026-05",
+      "status": 200,
+      "file": "wp-2026-05.html",
+      "pageid": "268724409",
+      "oldTwinSearchCount": 1,
+      "searchInHead": true,
+      "oldTwinTotal": 1,
+      "oldTaxStatus": false
+    },
+    {
+      "url": "https://digitaleconomylab.ru/282-calendar",
+      "status": 200,
+      "file": "282-calendar.html",
+      "pageid": "275237109",
+      "oldTwinSearchCount": 1,
+      "searchInHead": true,
+      "oldTwinTotal": 1,
+      "oldTaxStatus": false
+    },
+    {
+      "url": "https://digitaleconomylab.ru/khwarezm-100",
+      "status": 200,
+      "file": "khwarezm-100.html",
+      "pageid": "289608609",
+      "oldTwinSearchCount": 1,
+      "searchInHead": true,
+      "oldTwinTotal": 1,
+      "oldTaxStatus": false
+    },
+    {
+      "url": "https://digitaleconomylab.ru/sberindex-regions",
+      "status": 200,
+      "file": "sberindex-regions.html",
+      "pageid": "300676509",
+      "oldTwinSearchCount": 1,
+      "searchInHead": true,
+      "oldTwinTotal": 1,
+      "oldTaxStatus": false
+    },
+    {
+      "url": "https://digitaleconomylab.ru/float-metrics",
+      "status": 200,
+      "file": "float-metrics.html",
+      "pageid": "311991409",
+      "oldTwinSearchCount": 1,
+      "searchInHead": true,
+      "oldTwinTotal": 1,
+      "oldTaxStatus": false
+    },
+    {
+      "url": "https://digitaleconomylab.ru/minfin-fx-neutrality",
+      "status": 200,
+      "file": "minfin-fx-neutrality.html",
+      "pageid": "308431709",
+      "oldTwinSearchCount": 1,
+      "searchInHead": true,
+      "oldTwinTotal": 1,
+      "oldTaxStatus": false
+    },
+    {
+      "url": "https://digitaleconomylab.ru/wp-2026-06",
+      "status": 200,
+      "file": "wp-2026-06.html",
+      "pageid": "312274909",
+      "oldTwinSearchCount": 1,
+      "searchInHead": true,
+      "oldTwinTotal": 1,
+      "oldTaxStatus": false
+    },
+    {
+      "url": "https://digitaleconomylab.ru/page339290509.html",
+      "status": 200,
+      "file": "page339290509.html.html",
+      "pageid": "339290509",
+      "oldTwinSearchCount": 1,
+      "searchInHead": true,
+      "oldTwinTotal": 1,
+      "oldTaxStatus": false
+    },
+    {
+      "url": "https://digitaleconomylab.ru/inflation-target-horizon",
+      "status": 200,
+      "file": "inflation-target-horizon.html",
+      "pageid": "336191009",
+      "oldTwinSearchCount": 1,
+      "searchInHead": true,
+      "oldTwinTotal": 1,
+      "oldTaxStatus": false
+    },
+    {
+      "url": "https://digitaleconomylab.ru/wp-2026-08",
+      "status": 200,
+      "file": "wp-2026-08.html",
+      "pageid": "318228109",
+      "oldTwinSearchCount": 1,
+      "searchInHead": true,
+      "oldTwinTotal": 1,
+      "oldTaxStatus": false
+    },
+    {
+      "url": "https://digitaleconomylab.ru/wp-2026-07",
+      "status": 200,
+      "file": "wp-2026-07.html",
+      "pageid": "318228009",
+      "oldTwinSearchCount": 1,
+      "searchInHead": true,
+      "oldTwinTotal": 1,
+      "oldTaxStatus": false
+    },
+    {
+      "url": "https://digitaleconomylab.ru/agglomeration-twin",
+      "status": 200,
+      "file": "agglomeration-twin.html",
+      "pageid": "335271909",
+      "oldTwinSearchCount": 1,
+      "searchInHead": true,
+      "oldTwinTotal": 6,
+      "oldTaxStatus": true
+    },
+    {
+      "url": "https://digitaleconomylab.ru/wp-2026-01",
+      "status": 200,
+      "file": "wp-2026-01.html",
+      "pageid": "375837509",
+      "oldTwinSearchCount": 1,
+      "searchInHead": true,
+      "oldTwinTotal": 1,
+      "oldTaxStatus": false
+    },
+    {
+      "url": "https://digitaleconomylab.ru/wp-2026-02",
+      "status": 200,
+      "file": "wp-2026-02.html",
+      "pageid": "375860409",
+      "oldTwinSearchCount": 1,
+      "searchInHead": true,
+      "oldTwinTotal": 1,
+      "oldTaxStatus": false
+    },
+    {
+      "url": "https://digitaleconomylab.ru/wp-2026-09",
+      "status": 200,
+      "file": "wp-2026-09.html",
+      "pageid": "344436709",
+      "oldTwinSearchCount": 1,
+      "searchInHead": true,
+      "oldTwinTotal": 1,
+      "oldTaxStatus": false
+    },
+    {
+      "url": "https://digitaleconomylab.ru/",
+      "status": 200,
+      "file": "index.html",
+      "pageid": "342540309",
+      "oldTwinSearchCount": 2,
+      "searchInHead": true,
+      "oldTwinTotal": 11,
+      "oldTaxStatus": false
+    },
+    {
+      "url": "https://digitaleconomylab.ru/wp-2026-10",
+      "status": 200,
+      "file": "wp-2026-10.html",
+      "pageid": "389381709",
+      "oldTwinSearchCount": 1,
+      "searchInHead": true,
+      "oldTwinTotal": 1,
+      "oldTaxStatus": false
+    }
+  ],
+  "shared_search": {
+    "source": "Tilda project HEAD, del-theme-js",
+    "old_version": "0.1.3",
+    "new_version": "0.3.1",
+    "publication_confirmed": false
+  },
+  "home_cards": {
+    "page_id": "342540309",
+    "publication_confirmed": false
+  },
+  "wp_catalog": {
+    "page_id": "266742609",
+    "paper": "WP-2026-07",
+    "target_version": "1.7",
+    "publication_confirmed": false
+  },
+  "twin": {
+    "page_id": "335271909",
+    "version": "0.3.1",
+    "wp7_update_published": true,
+    "range_loader_saved": true,
+    "range_loader_published": null
+  },
+  "zenodo": {
+    "record_id": "24563288",
+    "doi": "10.5281/zenodo.24563288",
+    "status": "reserved_draft",
+    "published": false
+  }
+}
