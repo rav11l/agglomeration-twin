@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-26",
+  "page": "https://digitaleconomylab.ru/?lang=ru",
+  "published": true,
+  "ru": {
+    "documentWidth": 1348,
+    "featuredCards": 3,
+    "heroHeading": "Измеримость там, где регулирование опережает данные",
+    "institutionalLinks": 0,
+    "lang": "ru",
+    "mentions": [
+      "Москва, ЦЭМИ РАН"
+    ],
+    "scrollWidth": 1348
+  },
+  "en": {
+    "documentWidth": 1348,
+    "institutionalLinks": 0,
+    "lang": "en",
+    "mentions": [
+      "Moscow, CEMI RAS"
+    ],
+    "scrollWidth": 1348
+  },
+  "scope": "Homepage text, timeline tooltip and local search descriptions; one CEMI venue mention per language."
+}

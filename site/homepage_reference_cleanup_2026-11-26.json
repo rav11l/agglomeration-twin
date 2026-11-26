@@ -1,0 +1,52 @@
+{
+  "page": "https://digitaleconomylab.ru/?lang=ru",
+  "date": "2026-11-26",
+  "retained_context": {
+    "ru": "Москва, ЦЭМИ РАН",
+    "en": "Moscow, CEMI RAS",
+    "section": "talks",
+    "date": "09–10.06.2026"
+  },
+  "replacements": [
+    {
+      "block": 1,
+      "before": "10.06.2026 — доклад о цифровых коридорах Евразии · ЦЭМИ РАН",
+      "after": "10.06.2026 — доклад о цифровых коридорах Евразии"
+    },
+    {
+      "block": 1,
+      "before": "10.06.2026 — Eurasian digital corridors · CEMI RAS",
+      "after": "10.06.2026 — Eurasian digital corridors"
+    },
+    {
+      "block": 1,
+      "before": "Доклад в ЦЭМИ РАН, 9–10 июня 2026 года.",
+      "after": "Материалы доклада 9–10 июня 2026 года."
+    },
+    {
+      "block": 1,
+      "before": "Presented at CEMI RAS, 9–10 June 2026.",
+      "after": "Presented on 9–10 June 2026."
+    },
+    {
+      "block": 2,
+      "before": "Демо к докладу в ЦЭМИ РАН",
+      "after": "Демо цифрового транспортного коридора"
+    },
+    {
+      "block": 2,
+      "before": "Demo for the CEMI RAS talk",
+      "after": "Digital transport corridor demo"
+    },
+    {
+      "block": 2,
+      "before": "«Цифровая экономика» (ЦЭМИ РАН):",
+      "after": "«Цифровая экономика»:"
+    },
+    {
+      "block": 2,
+      "before": "Digital Economy (CEMI RAS):",
+      "after": "Digital Economy:"
+    }
+  ]
+}
