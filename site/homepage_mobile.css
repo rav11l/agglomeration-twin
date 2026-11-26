@@ -1,0 +1,48 @@
+/* Mobile homepage · 26.11.2026 */
+@media(max-width:640px){
+  header .nav.wrap{height:68px;padding-inline:16px;gap:8px}
+  header .brand{flex:1 1 auto;min-width:0;grid-template-columns:22px max-content;justify-content:start;column-gap:8px;font-size:clamp(14px,3.8vw,16px)}
+  header .brand .mark{width:22px;height:22px}
+  header .brand .bs{font-size:11px;line-height:1.4;letter-spacing:.015em}
+  header .dsbtn,header .burger{flex:0 0 38px;width:38px;height:40px;padding:0;border-color:var(--line);background:transparent;border-radius:2px}
+  header .lang{flex:0 0 auto;margin-left:0}
+  header .lang button{width:26px;height:38px;padding:0;font-size:11px;line-height:1;letter-spacing:.03em}
+  header nav.links{justify-content:flex-start;align-items:stretch;top:100%;padding:8px 22px 16px;border-bottom:1px solid var(--line);max-height:calc(100dvh - 80px);overflow-y:auto;overscroll-behavior:contain}
+  header nav.links a{min-height:44px;display:flex;align-items:center;padding:10px 0;font-size:16px}
+  header .dspanel{right:12px;width:calc(100vw - 24px)}
+  header .dspanel .dsi{display:grid;grid-template-columns:minmax(0,1fr);gap:6px;padding:12px}
+  header .dspanel .dsi .m{white-space:normal;font-size:11px;letter-spacing:.03em}
+  header .dspanel .dsi b{font-size:18px;line-height:1.2}
+  header .dspanel .dsi small{font-size:13px;line-height:1.5;margin-top:5px}
+  .wrap{padding-inline:22px}
+  .hero{padding:32px 0 36px}
+  .hero .wrap{display:block}
+  .hero .kicker{font-size:10.5px;line-height:1.5;font-weight:500;letter-spacing:.14em;margin-bottom:18px}
+  .hero .hm-location{display:block;margin-top:4px;color:var(--muted);font-size:10px;letter-spacing:.16em}
+  .hero .hm-separator{display:none}
+  .hero h1{font-size:clamp(36px,9.5vw,44px);line-height:1.04;letter-spacing:-.018em;max-width:18ch;text-wrap:balance}
+  .hero .lede{font-size:16px;line-height:1.65;margin-top:20px;max-width:36ch;text-wrap:pretty}
+  .hero .cta-row{display:grid;grid-template-columns:minmax(0,1fr);gap:10px;margin-top:24px}
+  .hero .cta-row .btn{display:flex;align-items:center;justify-content:center;min-height:48px;padding:11px 16px;font-size:15px;line-height:1.4;font-weight:500;border-radius:2px}
+  .hero .dstar{width:360px;height:360px;right:-190px;top:10px;opacity:.28}
+  .dfav{padding:32px 0 40px;border-top:0}
+  .dfav-head{text-align:left;margin-bottom:24px}
+  .dfav-k{font-size:10px;line-height:1.5;letter-spacing:.18em}
+  .dfav h2{font-size:clamp(32px,8.8vw,38px);line-height:1.08;letter-spacing:-.015em;margin:12px 0 0;text-wrap:balance}
+  .dfav-grid{grid-template-columns:minmax(0,1fr);gap:16px}
+  .dfav .dfig{display:flex;flex-direction:column;gap:14px;min-width:0;padding:24px 22px;background:#FBF9F4;grid-row:auto}
+  .dfav .dfig .k{font-size:10.5px;line-height:1.55;letter-spacing:.12em;min-height:0}
+  .dfav .dfig .dfig-date{letter-spacing:.06em;font-variant-numeric:tabular-nums}
+  .dfav .dfig .n{font-size:clamp(52px,15vw,64px);line-height:1;letter-spacing:-.035em;white-space:nowrap}
+  .dfav .dfig .s{font-size:15.5px;line-height:1.55;padding-bottom:16px}
+  .dfav .dfig .t{font-size:28px;line-height:1.08;letter-spacing:-.01em}
+  .dfav .dfig .c{align-self:flex-start;min-height:32px;display:flex;align-items:center;margin-top:2px;font-size:10.5px;line-height:1.5;letter-spacing:.13em}
+  #research-coverage .rc-wrap{padding-inline:22px}
+}
+@media(max-width:360px){
+  header .nav.wrap{padding-inline:12px;gap:6px}
+  header .brand{font-size:14px;column-gap:7px}
+  .wrap{padding-inline:20px}
+  .hero h1{font-size:36px}
+  .hero .kicker{font-size:10px;letter-spacing:.12em}
+}

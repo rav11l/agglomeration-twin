@@ -1,0 +1,148 @@
+{
+  "page": "https://digitaleconomylab.ru/?lang=ru",
+  "date": "2026-11-26",
+  "published": true,
+  "mobile340": {
+    "brandLeft": 12,
+    "brandTextLeft": 41,
+    "burgerRight": 325,
+    "cards": [
+      {
+        "scrollWidth": 295,
+        "width": 295
+      },
+      {
+        "scrollWidth": 295,
+        "width": 295
+      },
+      {
+        "scrollWidth": 295,
+        "width": 295
+      }
+    ],
+    "clientWidth": 337,
+    "ctaHeights": [
+      48,
+      48
+    ],
+    "featuredHeadingTop": 757.9375,
+    "height": 234,
+    "heroBottom": 698.9375,
+    "mentions": [
+      "Москва, ЦЭМИ РАН"
+    ],
+    "scrollWidth": 337,
+    "width": 340
+  },
+  "mobile454": {
+    "brandLeft": 16,
+    "brandTextLeft": 46,
+    "burgerRight": 433.3333435058594,
+    "cards": [
+      {
+        "scrollWidth": 403,
+        "width": 403
+      },
+      {
+        "scrollWidth": 403,
+        "width": 403
+      },
+      {
+        "scrollWidth": 403,
+        "width": 403
+      }
+    ],
+    "clientWidth": 449,
+    "featuredHeadingTop": 728.21875,
+    "height": 312,
+    "heroBottom": 669.21875,
+    "scrollWidth": 449,
+    "width": 454
+  },
+  "english340": {
+    "cards": [
+      {
+        "scrollWidth": 295,
+        "width": 295
+      },
+      {
+        "scrollWidth": 295,
+        "width": 295
+      },
+      {
+        "scrollWidth": 295,
+        "width": 295
+      }
+    ],
+    "clientWidth": 337,
+    "lang": "en",
+    "mentions": [
+      "Moscow, CEMI RAS"
+    ],
+    "scrollWidth": 337,
+    "width": 340
+  },
+  "menu": {
+    "clientHeight": 231,
+    "firstLinkTop": 111.4375,
+    "justifyContent": "flex-start",
+    "links": [
+      {
+        "height": 44,
+        "text": "Инструменты"
+      },
+      {
+        "height": 44,
+        "text": "Исследования"
+      },
+      {
+        "height": 44,
+        "text": "Выступления"
+      },
+      {
+        "height": 44,
+        "text": "Программы"
+      },
+      {
+        "height": 44,
+        "text": "Об авторе"
+      },
+      {
+        "height": 44,
+        "text": "Наследие"
+      }
+    ],
+    "open": true,
+    "overflowY": "auto",
+    "scrollHeight": 288,
+    "top": 103.4375,
+    "lastLinkNavigation": {
+      "hash": "#heritage",
+      "closed": true
+    }
+  },
+  "search": {
+    "left": 8.25,
+    "meta": "v0.3.1 · 26.11.2026",
+    "resultCount": 1,
+    "resultDisplay": "grid",
+    "right": 325,
+    "scrollWidth": 315,
+    "title": "Двойник агломераций",
+    "width": 316.75
+  },
+  "desktop": {
+    "asideCards": 3,
+    "asideDisplay": "block",
+    "clientWidth": 1348,
+    "featuredCards": 3,
+    "featuredHeadingTop": 907.078125,
+    "height": 936,
+    "heroBottom": 834.640625,
+    "heroColumns": "672px 288px",
+    "mobileLocationDisplay": "inline",
+    "scrollWidth": 1348,
+    "width": 1363
+  },
+  "method": "Responsive CSS inspected using browser zoom; 340, 454 and 1363 CSS px. No physical phone, touch or Safari test."
+}
