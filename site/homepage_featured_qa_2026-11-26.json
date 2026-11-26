@@ -1,0 +1,85 @@
+{
+  "checked_on": "2026-11-26",
+  "publication": {
+    "homepage": "https://digitaleconomylab.ru/?lang=ru",
+    "twin": "https://digitaleconomylab.ru/agglomeration-twin?lang=ru",
+    "confirmed": true
+  },
+  "homepage": {
+    "layout": "Original two-column introduction with compact featured sidebar; full featured section remains below the first screen",
+    "desktop": {
+      "allLinkBottom": 777.640625,
+      "aside": true,
+      "asideBottom": 777.640625,
+      "cardsStillLinked": 3,
+      "contentsOnHome": false,
+      "featuredHeadingTop": 907.078125,
+      "heroBottom": 834.640625,
+      "scrollWidth": 1348,
+      "viewport": [
+        1363,
+        936
+      ]
+    },
+    "laptop": {
+      "allLinkBottom": 698.0374889373779,
+      "featuredHeadingTop": 795.0750122070312,
+      "heroBottom": 722.8375396728516,
+      "scrollWidth": 1078,
+      "viewport": [
+        1090,
+        749
+      ]
+    },
+    "mobile": {
+      "asideDisplay": "none",
+      "cards": 3,
+      "clientWidth": 337,
+      "extraContents": false,
+      "menuRight": 325,
+      "scrollWidth": 337,
+      "width": 340
+    },
+    "sidebar_cards": 3,
+    "current_release_doi": "10.5281/zenodo.24563288"
+  },
+  "twin_mobile": {
+    "wp_reference": "https://digitaleconomylab.ru/wp-2026-07?lang=ru",
+    "width454": {
+      "broken": [],
+      "height": 312,
+      "linkFontSize": "14px",
+      "links": 22,
+      "maxHeight": "187.2px",
+      "open": false,
+      "scrollWidth": 449,
+      "summaryColor": "rgb(132, 104, 49)",
+      "width": 454
+    },
+    "after_jobs_navigation": {
+      "closed": true,
+      "current": "#tw-republic-2026",
+      "doiPublished": "Выпуск 0.3.1 опубликован в Zenodo: DOI 10.5281/zenodo.24563288. Данные, код и автономный HTML — в архиве выпуска.Release 0.3.1 is published on Zenodo: DOI 10.5281/zenodo.24563288. Data, code and standalone HTML are included.",
+      "hash": "#tw-republic-2026",
+      "scrollWidth": 449,
+      "targetTop": 116.015625,
+      "width": 454
+    },
+    "width340": {
+      "navClientWidth": 301,
+      "navScrollWidth": 301,
+      "navWidth": 305,
+      "open": true,
+      "scrollWidth": 337,
+      "summaryColor": "rgb(132, 104, 49)",
+      "width": 340
+    },
+    "laishevo_navigation": {
+      "hash": "#tw-l-pop",
+      "closed": true
+    },
+    "english_summary": "TWIN SECTIONS",
+    "homepage_contents_added": false
+  },
+  "verification_method": "Responsive CSS checked using browser zoom at 340, 454, 1090 and 1363 CSS px; not a physical phone or mobile Safari test"
+}
