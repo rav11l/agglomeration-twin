@@ -58,7 +58,14 @@
     "python_builder_compiles": true,
     "mobile_method": "Responsive CSS layout at browser zoom; not a physical-device, touch or mobile Safari test",
     "new_republic_module_language": "Russian; parent page and TOC support RU/EN",
-    "zenodo_publication": "reserved DOI only; not published",
-    "zenodo_draft": "https://zenodo.org/uploads/24563288"
+    "zenodo_publication": "published",
+    "zenodo_record": "https://zenodo.org/records/24563288",
+    "zenodo_doi": "10.5281/zenodo.24563288",
+    "doi_resolves_to_published_record": true,
+    "zenodo_archive_bytes": 5973561,
+    "zenodo_archive_sha256": "74f2722601da6999966183bf414fdde7360ea1fbf5fb6d154bd1451ba0bbca6a",
+    "zenodo_download_matches_local": true,
+    "live_site_doi_status_updated": true,
+    "release_source_commit": "48bbb05020bdeedc78c01a4ed8e9ef7828bf6fb6"
   }
 }
