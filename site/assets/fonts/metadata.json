@@ -1,0 +1,41 @@
+{
+  "css_url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap&text=%20!%22%23%24%25%26'()*%2B%2C-.%2F0123456789%3A%3B%3C%3D%3E%3F%40ABCDEFGHIJKLMNOPQRSTUVWXYZ%5B%5C%5D%5E_%60abcdefghijklmnopqrstuvwxyz%7B%7C%7D~%D0%90%D0%91%D0%92%D0%93%D0%94%D0%95%D0%96%D0%97%D0%98%D0%99%D0%9A%D0%9B%D0%9C%D0%9D%D0%9E%D0%9F%D0%A0%D0%A1%D0%A2%D0%A3%D0%A4%D0%A5%D0%A6%D0%A7%D0%A8%D0%A9%D0%AA%D0%AB%D0%AC%D0%AD%D0%AE%D0%AF%D0%B0%D0%B1%D0%B2%D0%B3%D0%B4%D0%B5%D0%B6%D0%B7%D0%B8%D0%B9%D0%BA%D0%BB%D0%BC%D0%BD%D0%BE%D0%BF%D1%80%D1%81%D1%82%D1%83%D1%84%D1%85%D1%86%D1%87%D1%88%D1%89%D1%8A%D1%8B%D1%8C%D1%8D%D1%8E%D1%8F%D0%81%D1%91%E2%82%BD%E2%84%96%C3%97%E2%80%94%E2%80%93%C2%AB%C2%BB%C2%A9%C2%B7%E2%80%A6%E2%88%92%E2%89%A4%E2%89%A5%E2%82%82%CF%84%CE%A3",
+  "fonts": [
+    {
+      "url": "https://fonts.gstatic.com/l/font?kit=UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyfMZhzBLagus33XRSrPq9jBU0TnQcBSMQLMhU1Qt_4ifFCtC0co0a2A5lGMhjp-hfPOWWi7RMTdTjPFrlwEU1x0Gvwi4ntfHeX6yVMdkaKit1bjF8wBCMbZkOwvtmDp2VpadI2i1FliUgcbO3x1198O9CFnydavq9xl_zz9aldbIuNxf9LdfToM5UJZtVQfHKt68JOpH9hsivH9FSAqz1SJP0yUXtljtKSul8Ck0NTEluj0uKYbBcy4i5OgoEQtEdtum4GoZtmPmKHfmXsYlgadk84fNM55YjzBLsnHaw42YCiGCl2CluK9MBf_mrBCOzvckCAGlYR0RM0eJ3J6pYZi-hrYdTu9HLfpJom6hoj5Y2bApRTN_ntu1d6qeZH2SqNFX2Jt93FZUitMAFH1tc16oD1XvrmGXTOZ22TI3IYJBhmzoY-kg5P8n7WiqvdjfgKnbysh9ZIbRIRr0xriRm-Fiuke01CH50g04VfGacsl2kvkJj0M5UIUpSpnRfhNKlZvfK8cI9Z9xypNF9vZRQ&skey=c491285d6722e4fa&v=v20",
+      "file": "site/assets/fonts/twin_0.ttf",
+      "bytes": 51280,
+      "sha256": "c99d0a081eba487f1f906a8f22d6c43fdba99a18699b6afc0f366dbbd86cfb18"
+    },
+    {
+      "url": "https://fonts.gstatic.com/l/font?kit=UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuI6fMZhzBLagus33XRSrPq9jBU0TnQcBSMQLMhU1Qt_4ifFCtC0co0a2A5lGMhjp-hfPOWWi7RMTdTjPFrlwEU1x0Gvwi4ntfHeX6yVMdkaKit1bjF8wBCMbZkOwvtmDp2VpadI2i1FliUgcbO3x1198O9CFnydavq9xl_zz9aldbIuNxf9LdfToM5UJZtVQfHKt68JOpH9hsivH9FSAqz1SJP0yUXtljtKSul8Ck0NTEluj0uKYbBcy4i5OgoEQtEdtum4GoZtmPmKHfmXsYlgadk84fNM55YjzBLsnHaw42YCiGCl2CluK9MBf_mrBCOzvckCAGlYR0RM0eJ3J6pYZi-hrYdTu9HLfpJom6hoj5Y2bApRTN_ntu1d6qeZH2SqNFX2Jt93FZUitMAFH1tc16oD1XvrmGXTOZ22TI3IYJBhmzoY-kg5P8n7WiqvdjfgKnbysh9ZIbRIRr0xriRm-Fiuke01CH50g04VfGacsl2kvkJj0M5UIUpSpnRfhNKlZvfK8cI9Z9xypNF9vZRQ&skey=c491285d6722e4fa&v=v20",
+      "file": "site/assets/fonts/twin_1.ttf",
+      "bytes": 51332,
+      "sha256": "c6a1cc2887ebdb8b451644c04658c8644ac8c430a12980d437dbc3d102162406"
+    },
+    {
+      "url": "https://fonts.gstatic.com/l/font?kit=UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuGKYMZhzBLagus33XRSrPq9jBU0TnQcBSMQLMhU1Qt_4ifFCtC0co0a2A5lGMhjp-hfPOWWi7RMTdTjPFrlwEU1x0Gvwi4ntfHeX6yVMdkaKit1bjF8wBCMbZkOwvtmDp2VpadI2i1FliUgcbO3x1198O9CFnydavq9xl_zz9aldbIuNxf9LdfToM5UJZtVQfHKt68JOpH9hsivH9FSAqz1SJP0yUXtljtKSul8Ck0NTEluj0uKYbBcy4i5OgoEQtEdtum4GoZtmPmKHfmXsYlgadk84fNM55YjzBLsnHaw42YCiGCl2CluK9MBf_mrBCOzvckCAGlYR0RM0eJ3J6pYZi-hrYdTu9HLfpJom6hoj5Y2bApRTN_ntu1d6qeZH2SqNFX2Jt93FZUitMAFH1tc16oD1XvrmGXTOZ22TI3IYJBhmzoY-kg5P8n7WiqvdjfgKnbysh9ZIbRIRr0xriRm-Fiuke01CH50g04VfGacsl2kvkJj0M5UIUpSpnRfhNKlZvfK8cI9Z9xypNF9vZRQ&skey=c491285d6722e4fa&v=v20",
+      "file": "site/assets/fonts/twin_2.ttf",
+      "bytes": 51488,
+      "sha256": "a066fe4501286ee3120a941c4c6eb747db9530d5d2a4ff65511e2504d9941eb3"
+    },
+    {
+      "url": "https://fonts.gstatic.com/l/font?kit=vEF02_tTDB4M7-auWDN0ahZJW1ge6NmXpVAHV83Bfb_US2D2QYxoUKIkn98pRl9dC9aOpRT9fFMW1uoCaZHF5BDnY9uYT_g3x_0c7IYI1xAg-Pmd1QIEWSUENxXQmazVPEXxK3Z2slUOlUq19vfqNbI-XgpflZT84_Y_MWGX_a5V3Whe4J-mNHUi4o1JJ5PxnKOGDpoend6ydLpZ5uYvbJ_UY9OAFQP__DGHlwsKfJca6UL7hu6cFimVh3poK50z1quNgzEUh1GhLfc6_Vvp-OxFRAOUVvQUkxFMM-gdjYypq-B4Z2plWYOSGz0vu9cpCUas1yqEfygJgbUTEDUmkE0M3_LrcBkvLezxDz_2iI4JO27pZbU_smwsVnTATBe0Y7Cke-K4kCeq3g2EBXV6XMm5JRj0Q4sPRF5WkiysKyWefUH6tGWt4VG70iAbe3-AG9lCvUmLcdK_4-TEMROGa8Mc5pyTEliOygXKdRVFoze0dc6r-nOb9DtmP-cww-jeVPrY1jySocEMIl4LjtQUECYRNAIuCBwW5_TU9zOONzlUMJ7yFZeOJFTg96mLLtVTWmQZrUfNYoKka_rXQg&skey=2bda18e6c0fabe3c&v=v15",
+      "file": "site/assets/fonts/twin_3.ttf",
+      "bytes": 67412,
+      "sha256": "64933985992254f32441ec1b0f15ed1d6cf20387c1e0f3a7e34f5759fdb45ecf"
+    },
+    {
+      "url": "https://fonts.gstatic.com/l/font?kit=vEFy2_tTDB4M7-auWDN0ahZJW3IX2ih5nk3AucvUHf6OAVIJmeUDygwjihdqrhxPgucnhxb_elUU1OQMa5PD4hLlfcWaTf4xxf8S4oQK0RYi-ofj1wACXycGORvSm6rTPkfvNXR0tFMMl0S79PXsM7A8YDRdl5L64fQxP2OV-6hX33ZA4p2gMncg7INLJZX3nhxRDpgegd6-dYVZ6eYrbIbUYtOLFTv_8zGDlxIKdpcZ7n_7h-6LFiiVjHppK64z16qugzAUpFGgLeIzw1vn-sdEYxyRVvsUjRFNM-sdjIyuq-F4ZGpkWYySGj0su9YpDkat1ymEfig2gbQTEzUnkEoM3vLocBgvIuzwDzz2iY4OO2_pZrU-snMsV3TDTBa0ZLCle-G4kSel3gyEBnV7XM65JBj3Q4oOe15Xki-sKiWZfUD6t2Ws4V670yAYe36AHNlDvUqLcNKh4-vGLhOFa9Ec55yQElmOzwXLdR5Foje3dc-rwXOa9DhmPuc7w-neSfrZ1jmSoMEBIl85j5NNDmBIKWd1NnhN2JmPwV_VAE8MJ--QBuHsMBCC08nrLoozYxB_szenecTPRr0&skey=8bcb392be1d494a6&v=v15",
+      "file": "site/assets/fonts/twin_4.ttf",
+      "bytes": 66044,
+      "sha256": "bfed17f163348193bd00f31c940843978a1c7011f24ad5d36c3fe3ee00bcfe89"
+    },
+    {
+      "url": "https://fonts.gstatic.com/l/font?kit=vEFy2_tTDB4M7-auWDN0ahZJW3IX2ih5nk3AucvUHf6OAVIJmeUDygwjisltrhxPgucnhxb_elUU1OQMa5PD4hLlfcWaTf4xxf8S4oQK0RYi-ofj1wACXycGORvSm6rTPkfvNXR0tFMMl0S79PXsM7A8YDRdl5L64fQxP2OV-6hX33ZA4p2gMncg7INLJZX3nhxRDpgegd6-dYVZ6eYrbIbUYtOLFTv_8zGDlxIKdpcZ7n_7h-6LFiiVjHppK64z16qugzAUpFGgLeIzw1vn-sdEYxyRVvsUjRFNM-sdjIyuq-F4ZGpkWYySGj0su9YpDkat1ymEfig2gbQTEzUnkEoM3vLocBgvIuzwDzz2iY4OO2_pZrU-snMsV3TDTBa0ZLCle-G4kSel3gyEBnV7XM65JBj3Q4oOe15Xki-sKiWZfUD6t2Ws4V670yAYe36AHNlDvUqLcNKh4-vGLhOFa9Ec55yQElmOzwXLdR5Foje3dc-rwXOa9DhmPuc7w-neSfrZ1jmSoMEBIl85j5NNDmBIKWd1NnhN2JmPwV_VAE8MJ--QBuHsMBCC08nrLoozYxB_szenecTPRr0&skey=8bcb392be1d494a6&v=v15",
+      "file": "site/assets/fonts/twin_5.ttf",
+      "bytes": 66136,
+      "sha256": "6c106acf439fe62094799d00ae8bfa2a96a2e42c9849a1d3e2a3214c02566c4f"
+    }
+  ]
+}

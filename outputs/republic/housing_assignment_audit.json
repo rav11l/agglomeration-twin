@@ -1,0 +1,3142 @@
+[
+  {
+    "objId": "41195",
+    "method": "geometry",
+    "assigned_oktmo": "92730000",
+    "address_oktmo": "92730000",
+    "geometry_oktmo": "92730000",
+    "disagreement": false,
+    "flats": 48,
+    "override_source": null
+  },
+  {
+    "objId": "45340",
+    "method": "geometry",
+    "assigned_oktmo": "92730000",
+    "address_oktmo": "92730000",
+    "geometry_oktmo": "92730000",
+    "disagreement": false,
+    "flats": 0,
+    "override_source": null
+  },
+  {
+    "objId": "48520",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": "92628000",
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 157,
+    "override_source": null
+  },
+  {
+    "objId": "49361",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 623,
+    "override_source": null
+  },
+  {
+    "objId": "49693",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 228,
+    "override_source": null
+  },
+  {
+    "objId": "51607",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 56,
+    "override_source": null
+  },
+  {
+    "objId": "51721",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 32,
+    "override_source": null
+  },
+  {
+    "objId": "52368",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 313,
+    "override_source": null
+  },
+  {
+    "objId": "52402",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 542,
+    "override_source": null
+  },
+  {
+    "objId": "52403",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 470,
+    "override_source": null
+  },
+  {
+    "objId": "52404",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 0,
+    "override_source": null
+  },
+  {
+    "objId": "52954",
+    "method": "geometry",
+    "assigned_oktmo": "92730000",
+    "address_oktmo": "92730000",
+    "geometry_oktmo": "92730000",
+    "disagreement": false,
+    "flats": 126,
+    "override_source": null
+  },
+  {
+    "objId": "53496",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 897,
+    "override_source": null
+  },
+  {
+    "objId": "53497",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 505,
+    "override_source": null
+  },
+  {
+    "objId": "53637",
+    "method": "geometry",
+    "assigned_oktmo": "92730000",
+    "address_oktmo": "92730000",
+    "geometry_oktmo": "92730000",
+    "disagreement": false,
+    "flats": 303,
+    "override_source": null
+  },
+  {
+    "objId": "53733",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 116,
+    "override_source": null
+  },
+  {
+    "objId": "53781",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 288,
+    "override_source": null
+  },
+  {
+    "objId": "53782",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 432,
+    "override_source": null
+  },
+  {
+    "objId": "53783",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 288,
+    "override_source": null
+  },
+  {
+    "objId": "53784",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 288,
+    "override_source": null
+  },
+  {
+    "objId": "53785",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 441,
+    "override_source": null
+  },
+  {
+    "objId": "54301",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 132,
+    "override_source": null
+  },
+  {
+    "objId": "54327",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 849,
+    "override_source": null
+  },
+  {
+    "objId": "54328",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 831,
+    "override_source": null
+  },
+  {
+    "objId": "54367",
+    "method": "geometry",
+    "assigned_oktmo": "92608000",
+    "address_oktmo": "92608000",
+    "geometry_oktmo": "92608000",
+    "disagreement": false,
+    "flats": 160,
+    "override_source": null
+  },
+  {
+    "objId": "54457",
+    "method": "geometry",
+    "assigned_oktmo": "92730000",
+    "address_oktmo": "92730000",
+    "geometry_oktmo": "92730000",
+    "disagreement": false,
+    "flats": 182,
+    "override_source": null
+  },
+  {
+    "objId": "54754",
+    "method": "geometry",
+    "assigned_oktmo": "92608000",
+    "address_oktmo": "92608000",
+    "geometry_oktmo": "92608000",
+    "disagreement": false,
+    "flats": 251,
+    "override_source": null
+  },
+  {
+    "objId": "54755",
+    "method": "geometry",
+    "assigned_oktmo": "92608000",
+    "address_oktmo": "92608000",
+    "geometry_oktmo": "92608000",
+    "disagreement": false,
+    "flats": 70,
+    "override_source": null
+  },
+  {
+    "objId": "54756",
+    "method": "geometry",
+    "assigned_oktmo": "92608000",
+    "address_oktmo": "92608000",
+    "geometry_oktmo": "92608000",
+    "disagreement": false,
+    "flats": 0,
+    "override_source": null
+  },
+  {
+    "objId": "55062",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 502,
+    "override_source": null
+  },
+  {
+    "objId": "55560",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 0,
+    "override_source": null
+  },
+  {
+    "objId": "55673",
+    "method": "geometry",
+    "assigned_oktmo": "92730000",
+    "address_oktmo": "92730000",
+    "geometry_oktmo": "92730000",
+    "disagreement": false,
+    "flats": 174,
+    "override_source": null
+  },
+  {
+    "objId": "55772",
+    "method": "geometry",
+    "assigned_oktmo": "92730000",
+    "address_oktmo": "92730000",
+    "geometry_oktmo": "92730000",
+    "disagreement": false,
+    "flats": 0,
+    "override_source": null
+  },
+  {
+    "objId": "55808",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 0,
+    "override_source": null
+  },
+  {
+    "objId": "56203",
+    "method": "geometry",
+    "assigned_oktmo": "92608000",
+    "address_oktmo": "92608000",
+    "geometry_oktmo": "92608000",
+    "disagreement": false,
+    "flats": 0,
+    "override_source": null
+  },
+  {
+    "objId": "56392",
+    "method": "geometry",
+    "assigned_oktmo": "92644000",
+    "address_oktmo": "92644000",
+    "geometry_oktmo": "92644000",
+    "disagreement": false,
+    "flats": 106,
+    "override_source": null
+  },
+  {
+    "objId": "56455",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 241,
+    "override_source": null
+  },
+  {
+    "objId": "56600",
+    "method": "geometry",
+    "assigned_oktmo": "92730000",
+    "address_oktmo": "92730000",
+    "geometry_oktmo": "92730000",
+    "disagreement": false,
+    "flats": 216,
+    "override_source": null
+  },
+  {
+    "objId": "56683",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 137,
+    "override_source": null
+  },
+  {
+    "objId": "56689",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 242,
+    "override_source": null
+  },
+  {
+    "objId": "56744",
+    "method": "geometry",
+    "assigned_oktmo": "92730000",
+    "address_oktmo": "92730000",
+    "geometry_oktmo": "92730000",
+    "disagreement": false,
+    "flats": 216,
+    "override_source": null
+  },
+  {
+    "objId": "56845",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 908,
+    "override_source": null
+  },
+  {
+    "objId": "57177",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 535,
+    "override_source": null
+  },
+  {
+    "objId": "57289",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 70,
+    "override_source": null
+  },
+  {
+    "objId": "57515",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 419,
+    "override_source": null
+  },
+  {
+    "objId": "57831",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": "92628000",
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 157,
+    "override_source": null
+  },
+  {
+    "objId": "57985",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 32,
+    "override_source": null
+  },
+  {
+    "objId": "57986",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 19,
+    "override_source": null
+  },
+  {
+    "objId": "57987",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 32,
+    "override_source": null
+  },
+  {
+    "objId": "57988",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 19,
+    "override_source": null
+  },
+  {
+    "objId": "57989",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 32,
+    "override_source": null
+  },
+  {
+    "objId": "57990",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 0,
+    "override_source": null
+  },
+  {
+    "objId": "58213",
+    "method": "geometry",
+    "assigned_oktmo": "92608000",
+    "address_oktmo": "92608000",
+    "geometry_oktmo": "92608000",
+    "disagreement": false,
+    "flats": 132,
+    "override_source": null
+  },
+  {
+    "objId": "58297",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 134,
+    "override_source": null
+  },
+  {
+    "objId": "58567",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 485,
+    "override_source": null
+  },
+  {
+    "objId": "58589",
+    "method": "geometry",
+    "assigned_oktmo": "92730000",
+    "address_oktmo": "92730000",
+    "geometry_oktmo": "92730000",
+    "disagreement": false,
+    "flats": 179,
+    "override_source": null
+  },
+  {
+    "objId": "58787",
+    "method": "geometry",
+    "assigned_oktmo": "92730000",
+    "address_oktmo": "92730000",
+    "geometry_oktmo": "92730000",
+    "disagreement": false,
+    "flats": 179,
+    "override_source": null
+  },
+  {
+    "objId": "58790",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 475,
+    "override_source": null
+  },
+  {
+    "objId": "58791",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 0,
+    "override_source": null
+  },
+  {
+    "objId": "58889",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 0,
+    "override_source": null
+  },
+  {
+    "objId": "59308",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 184,
+    "override_source": null
+  },
+  {
+    "objId": "59347",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 91,
+    "override_source": null
+  },
+  {
+    "objId": "59552",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 78,
+    "override_source": null
+  },
+  {
+    "objId": "59555",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 0,
+    "override_source": null
+  },
+  {
+    "objId": "59556",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 179,
+    "override_source": null
+  },
+  {
+    "objId": "59557",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 179,
+    "override_source": null
+  },
+  {
+    "objId": "59668",
+    "method": "geometry",
+    "assigned_oktmo": "92730000",
+    "address_oktmo": "92730000",
+    "geometry_oktmo": "92730000",
+    "disagreement": false,
+    "flats": 135,
+    "override_source": null
+  },
+  {
+    "objId": "59669",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 115,
+    "override_source": null
+  },
+  {
+    "objId": "59895",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 79,
+    "override_source": null
+  },
+  {
+    "objId": "59947",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 250,
+    "override_source": null
+  },
+  {
+    "objId": "59968",
+    "method": "geometry",
+    "assigned_oktmo": "92730000",
+    "address_oktmo": "92730000",
+    "geometry_oktmo": "92730000",
+    "disagreement": false,
+    "flats": 265,
+    "override_source": null
+  },
+  {
+    "objId": "60002",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 1424,
+    "override_source": null
+  },
+  {
+    "objId": "60411",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 230,
+    "override_source": null
+  },
+  {
+    "objId": "60473",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 68,
+    "override_source": null
+  },
+  {
+    "objId": "60601",
+    "method": "geometry",
+    "assigned_oktmo": "92608000",
+    "address_oktmo": "92608000",
+    "geometry_oktmo": "92608000",
+    "disagreement": false,
+    "flats": 234,
+    "override_source": null
+  },
+  {
+    "objId": "60753",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 570,
+    "override_source": null
+  },
+  {
+    "objId": "60928",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 0,
+    "override_source": null
+  },
+  {
+    "objId": "60929",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 141,
+    "override_source": null
+  },
+  {
+    "objId": "60930",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 133,
+    "override_source": null
+  },
+  {
+    "objId": "60931",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 90,
+    "override_source": null
+  },
+  {
+    "objId": "61295",
+    "method": "geometry",
+    "assigned_oktmo": "92730000",
+    "address_oktmo": "92730000",
+    "geometry_oktmo": "92730000",
+    "disagreement": false,
+    "flats": 264,
+    "override_source": null
+  },
+  {
+    "objId": "61331",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 410,
+    "override_source": null
+  },
+  {
+    "objId": "61472",
+    "method": "geometry",
+    "assigned_oktmo": "92730000",
+    "address_oktmo": "92730000",
+    "geometry_oktmo": "92730000",
+    "disagreement": false,
+    "flats": 168,
+    "override_source": null
+  },
+  {
+    "objId": "61475",
+    "method": "geometry",
+    "assigned_oktmo": "92644000",
+    "address_oktmo": "92644000",
+    "geometry_oktmo": "92644000",
+    "disagreement": false,
+    "flats": 252,
+    "override_source": null
+  },
+  {
+    "objId": "61485",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 90,
+    "override_source": null
+  },
+  {
+    "objId": "61486",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 114,
+    "override_source": null
+  },
+  {
+    "objId": "61487",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 37,
+    "override_source": null
+  },
+  {
+    "objId": "61488",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 64,
+    "override_source": null
+  },
+  {
+    "objId": "61489",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 38,
+    "override_source": null
+  },
+  {
+    "objId": "61851",
+    "method": "geometry",
+    "assigned_oktmo": "92730000",
+    "address_oktmo": "92730000",
+    "geometry_oktmo": "92730000",
+    "disagreement": false,
+    "flats": 300,
+    "override_source": null
+  },
+  {
+    "objId": "61922",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 155,
+    "override_source": null
+  },
+  {
+    "objId": "61942",
+    "method": "geometry",
+    "assigned_oktmo": "92730000",
+    "address_oktmo": "92730000",
+    "geometry_oktmo": "92730000",
+    "disagreement": false,
+    "flats": 511,
+    "override_source": null
+  },
+  {
+    "objId": "61961",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 453,
+    "override_source": null
+  },
+  {
+    "objId": "61962",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 361,
+    "override_source": null
+  },
+  {
+    "objId": "61986",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 169,
+    "override_source": null
+  },
+  {
+    "objId": "62101",
+    "method": "geometry",
+    "assigned_oktmo": "92644000",
+    "address_oktmo": "92644000",
+    "geometry_oktmo": "92644000",
+    "disagreement": false,
+    "flats": 239,
+    "override_source": null
+  },
+  {
+    "objId": "62343",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 154,
+    "override_source": null
+  },
+  {
+    "objId": "62386",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 211,
+    "override_source": null
+  },
+  {
+    "objId": "62387",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 137,
+    "override_source": null
+  },
+  {
+    "objId": "62468",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 252,
+    "override_source": null
+  },
+  {
+    "objId": "62476",
+    "method": "geometry",
+    "assigned_oktmo": "92620000",
+    "address_oktmo": "92620000",
+    "geometry_oktmo": "92620000",
+    "disagreement": false,
+    "flats": 67,
+    "override_source": null
+  },
+  {
+    "objId": "62477",
+    "method": "geometry",
+    "assigned_oktmo": "92620000",
+    "address_oktmo": "92620000",
+    "geometry_oktmo": "92620000",
+    "disagreement": false,
+    "flats": 46,
+    "override_source": null
+  },
+  {
+    "objId": "62551",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 146,
+    "override_source": null
+  },
+  {
+    "objId": "62748",
+    "method": "geometry",
+    "assigned_oktmo": "92644000",
+    "address_oktmo": "92644000",
+    "geometry_oktmo": "92644000",
+    "disagreement": false,
+    "flats": 170,
+    "override_source": null
+  },
+  {
+    "objId": "62754",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 1,
+    "override_source": null
+  },
+  {
+    "objId": "62755",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 1,
+    "override_source": null
+  },
+  {
+    "objId": "62756",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 1,
+    "override_source": null
+  },
+  {
+    "objId": "62757",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 1,
+    "override_source": null
+  },
+  {
+    "objId": "62758",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 1,
+    "override_source": null
+  },
+  {
+    "objId": "62759",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 1,
+    "override_source": null
+  },
+  {
+    "objId": "62760",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 1,
+    "override_source": null
+  },
+  {
+    "objId": "62761",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 1,
+    "override_source": null
+  },
+  {
+    "objId": "62762",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 1,
+    "override_source": null
+  },
+  {
+    "objId": "62763",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 1,
+    "override_source": null
+  },
+  {
+    "objId": "62766",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 545,
+    "override_source": null
+  },
+  {
+    "objId": "62873",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 207,
+    "override_source": null
+  },
+  {
+    "objId": "62906",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 779,
+    "override_source": null
+  },
+  {
+    "objId": "62964",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 245,
+    "override_source": null
+  },
+  {
+    "objId": "62965",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 227,
+    "override_source": null
+  },
+  {
+    "objId": "63120",
+    "method": "geometry",
+    "assigned_oktmo": "92730000",
+    "address_oktmo": "92730000",
+    "geometry_oktmo": "92730000",
+    "disagreement": false,
+    "flats": 604,
+    "override_source": null
+  },
+  {
+    "objId": "63229",
+    "method": "geometry",
+    "assigned_oktmo": "92730000",
+    "address_oktmo": "92730000",
+    "geometry_oktmo": "92730000",
+    "disagreement": false,
+    "flats": 162,
+    "override_source": null
+  },
+  {
+    "objId": "63315",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 714,
+    "override_source": null
+  },
+  {
+    "objId": "63602",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 413,
+    "override_source": null
+  },
+  {
+    "objId": "63635",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 457,
+    "override_source": null
+  },
+  {
+    "objId": "63735",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 204,
+    "override_source": null
+  },
+  {
+    "objId": "63975",
+    "method": "geometry",
+    "assigned_oktmo": "92644000",
+    "address_oktmo": "92644000",
+    "geometry_oktmo": "92644000",
+    "disagreement": false,
+    "flats": 144,
+    "override_source": null
+  },
+  {
+    "objId": "63976",
+    "method": "geometry",
+    "assigned_oktmo": "92644000",
+    "address_oktmo": "92644000",
+    "geometry_oktmo": "92644000",
+    "disagreement": false,
+    "flats": 221,
+    "override_source": null
+  },
+  {
+    "objId": "63988",
+    "method": "geometry",
+    "assigned_oktmo": "92730000",
+    "address_oktmo": "92730000",
+    "geometry_oktmo": "92730000",
+    "disagreement": false,
+    "flats": 374,
+    "override_source": null
+  },
+  {
+    "objId": "63989",
+    "method": "geometry",
+    "assigned_oktmo": "92730000",
+    "address_oktmo": "92730000",
+    "geometry_oktmo": "92730000",
+    "disagreement": false,
+    "flats": 277,
+    "override_source": null
+  },
+  {
+    "objId": "64028",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 156,
+    "override_source": null
+  },
+  {
+    "objId": "64235",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 551,
+    "override_source": null
+  },
+  {
+    "objId": "64316",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 197,
+    "override_source": null
+  },
+  {
+    "objId": "64354",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 293,
+    "override_source": null
+  },
+  {
+    "objId": "64377",
+    "method": "geometry",
+    "assigned_oktmo": "92644000",
+    "address_oktmo": "92644000",
+    "geometry_oktmo": "92644000",
+    "disagreement": false,
+    "flats": 173,
+    "override_source": null
+  },
+  {
+    "objId": "64563",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 60,
+    "override_source": null
+  },
+  {
+    "objId": "64638",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 475,
+    "override_source": null
+  },
+  {
+    "objId": "64725",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 70,
+    "override_source": null
+  },
+  {
+    "objId": "64726",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 104,
+    "override_source": null
+  },
+  {
+    "objId": "64727",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 98,
+    "override_source": null
+  },
+  {
+    "objId": "64728",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 41,
+    "override_source": null
+  },
+  {
+    "objId": "64729",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 33,
+    "override_source": null
+  },
+  {
+    "objId": "64730",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 103,
+    "override_source": null
+  },
+  {
+    "objId": "64731",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 33,
+    "override_source": null
+  },
+  {
+    "objId": "64732",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 40,
+    "override_source": null
+  },
+  {
+    "objId": "64733",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 120,
+    "override_source": null
+  },
+  {
+    "objId": "64734",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 158,
+    "override_source": null
+  },
+  {
+    "objId": "64753",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 266,
+    "override_source": null
+  },
+  {
+    "objId": "64779",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 358,
+    "override_source": null
+  },
+  {
+    "objId": "64780",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 317,
+    "override_source": null
+  },
+  {
+    "objId": "64803",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 17,
+    "override_source": null
+  },
+  {
+    "objId": "64864",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 25,
+    "override_source": null
+  },
+  {
+    "objId": "65190",
+    "method": "geometry",
+    "assigned_oktmo": "92730000",
+    "address_oktmo": "92730000",
+    "geometry_oktmo": "92730000",
+    "disagreement": false,
+    "flats": 161,
+    "override_source": null
+  },
+  {
+    "objId": "65324",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": "92628000",
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 179,
+    "override_source": null
+  },
+  {
+    "objId": "65348",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 238,
+    "override_source": null
+  },
+  {
+    "objId": "65349",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 49,
+    "override_source": null
+  },
+  {
+    "objId": "65350",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 171,
+    "override_source": null
+  },
+  {
+    "objId": "65351",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 45,
+    "override_source": null
+  },
+  {
+    "objId": "65352",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 41,
+    "override_source": null
+  },
+  {
+    "objId": "65353",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 80,
+    "override_source": null
+  },
+  {
+    "objId": "65354",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 55,
+    "override_source": null
+  },
+  {
+    "objId": "65355",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 165,
+    "override_source": null
+  },
+  {
+    "objId": "65356",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 44,
+    "override_source": null
+  },
+  {
+    "objId": "65357",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 54,
+    "override_source": null
+  },
+  {
+    "objId": "65358",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 40,
+    "override_source": null
+  },
+  {
+    "objId": "65359",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 61,
+    "override_source": null
+  },
+  {
+    "objId": "65360",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 37,
+    "override_source": null
+  },
+  {
+    "objId": "65361",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 55,
+    "override_source": null
+  },
+  {
+    "objId": "65362",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 45,
+    "override_source": null
+  },
+  {
+    "objId": "65363",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 29,
+    "override_source": null
+  },
+  {
+    "objId": "65364",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 72,
+    "override_source": null
+  },
+  {
+    "objId": "65365",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 37,
+    "override_source": null
+  },
+  {
+    "objId": "65366",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 119,
+    "override_source": null
+  },
+  {
+    "objId": "65367",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 37,
+    "override_source": null
+  },
+  {
+    "objId": "65412",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 0,
+    "override_source": null
+  },
+  {
+    "objId": "65487",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": "92628000",
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 81,
+    "override_source": null
+  },
+  {
+    "objId": "65488",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": "92628000",
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 96,
+    "override_source": null
+  },
+  {
+    "objId": "65489",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": "92628000",
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 105,
+    "override_source": null
+  },
+  {
+    "objId": "65546",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 133,
+    "override_source": null
+  },
+  {
+    "objId": "65547",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 111,
+    "override_source": null
+  },
+  {
+    "objId": "65548",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 111,
+    "override_source": null
+  },
+  {
+    "objId": "65549",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 39,
+    "override_source": null
+  },
+  {
+    "objId": "65550",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 37,
+    "override_source": null
+  },
+  {
+    "objId": "65551",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 33,
+    "override_source": null
+  },
+  {
+    "objId": "65552",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 34,
+    "override_source": null
+  },
+  {
+    "objId": "65554",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 342,
+    "override_source": null
+  },
+  {
+    "objId": "65595",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 552,
+    "override_source": null
+  },
+  {
+    "objId": "65605",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": "92628000",
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 198,
+    "override_source": null
+  },
+  {
+    "objId": "65806",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 0,
+    "override_source": null
+  },
+  {
+    "objId": "65811",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": "92628000",
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 158,
+    "override_source": null
+  },
+  {
+    "objId": "65824",
+    "method": "geometry",
+    "assigned_oktmo": "92730000",
+    "address_oktmo": "92730000",
+    "geometry_oktmo": "92730000",
+    "disagreement": false,
+    "flats": 240,
+    "override_source": null
+  },
+  {
+    "objId": "65956",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 580,
+    "override_source": null
+  },
+  {
+    "objId": "65957",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 484,
+    "override_source": null
+  },
+  {
+    "objId": "65959",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 554,
+    "override_source": null
+  },
+  {
+    "objId": "66011",
+    "method": "geometry",
+    "assigned_oktmo": "92730000",
+    "address_oktmo": "92730000",
+    "geometry_oktmo": "92730000",
+    "disagreement": false,
+    "flats": 143,
+    "override_source": null
+  },
+  {
+    "objId": "66051",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 560,
+    "override_source": null
+  },
+  {
+    "objId": "66273",
+    "method": "geometry",
+    "assigned_oktmo": "92730000",
+    "address_oktmo": "92730000",
+    "geometry_oktmo": "92730000",
+    "disagreement": false,
+    "flats": 264,
+    "override_source": null
+  },
+  {
+    "objId": "66389",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 378,
+    "override_source": null
+  },
+  {
+    "objId": "66431",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 208,
+    "override_source": null
+  },
+  {
+    "objId": "66432",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 120,
+    "override_source": null
+  },
+  {
+    "objId": "66644",
+    "method": "geometry",
+    "assigned_oktmo": "92730000",
+    "address_oktmo": "92730000",
+    "geometry_oktmo": "92730000",
+    "disagreement": false,
+    "flats": 0,
+    "override_source": null
+  },
+  {
+    "objId": "66742",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 1673,
+    "override_source": null
+  },
+  {
+    "objId": "66792",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 59,
+    "override_source": null
+  },
+  {
+    "objId": "66822",
+    "method": "geometry",
+    "assigned_oktmo": "92730000",
+    "address_oktmo": "92730000",
+    "geometry_oktmo": "92730000",
+    "disagreement": false,
+    "flats": 182,
+    "override_source": null
+  },
+  {
+    "objId": "66849",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 238,
+    "override_source": null
+  },
+  {
+    "objId": "66851",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 250,
+    "override_source": null
+  },
+  {
+    "objId": "66962",
+    "method": "geometry",
+    "assigned_oktmo": "92633000",
+    "address_oktmo": "92633000",
+    "geometry_oktmo": "92633000",
+    "disagreement": false,
+    "flats": 72,
+    "override_source": null
+  },
+  {
+    "objId": "66965",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 529,
+    "override_source": null
+  },
+  {
+    "objId": "67097",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 582,
+    "override_source": null
+  },
+  {
+    "objId": "67142",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 806,
+    "override_source": null
+  },
+  {
+    "objId": "67370",
+    "method": "geometry",
+    "assigned_oktmo": "92730000",
+    "address_oktmo": "92730000",
+    "geometry_oktmo": "92730000",
+    "disagreement": false,
+    "flats": 27,
+    "override_source": null
+  },
+  {
+    "objId": "67801",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 330,
+    "override_source": null
+  },
+  {
+    "objId": "67860",
+    "method": "geometry",
+    "assigned_oktmo": "92644000",
+    "address_oktmo": "92644000",
+    "geometry_oktmo": "92644000",
+    "disagreement": false,
+    "flats": 39,
+    "override_source": null
+  },
+  {
+    "objId": "68248",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 245,
+    "override_source": null
+  },
+  {
+    "objId": "68249",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 227,
+    "override_source": null
+  },
+  {
+    "objId": "68298",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 543,
+    "override_source": null
+  },
+  {
+    "objId": "68346",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 150,
+    "override_source": null
+  },
+  {
+    "objId": "68400",
+    "method": "geometry",
+    "assigned_oktmo": "92626000",
+    "address_oktmo": "92626000",
+    "geometry_oktmo": "92626000",
+    "disagreement": false,
+    "flats": 153,
+    "override_source": null
+  },
+  {
+    "objId": "68825",
+    "method": "geometry",
+    "assigned_oktmo": "92730000",
+    "address_oktmo": "92730000",
+    "geometry_oktmo": "92730000",
+    "disagreement": false,
+    "flats": 416,
+    "override_source": null
+  },
+  {
+    "objId": "68826",
+    "method": "geometry",
+    "assigned_oktmo": "92730000",
+    "address_oktmo": "92730000",
+    "geometry_oktmo": "92730000",
+    "disagreement": false,
+    "flats": 93,
+    "override_source": null
+  },
+  {
+    "objId": "68866",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 835,
+    "override_source": null
+  },
+  {
+    "objId": "68907",
+    "method": "geometry",
+    "assigned_oktmo": "92644000",
+    "address_oktmo": "92644000",
+    "geometry_oktmo": "92644000",
+    "disagreement": false,
+    "flats": 198,
+    "override_source": null
+  },
+  {
+    "objId": "69013",
+    "method": "geometry",
+    "assigned_oktmo": "92730000",
+    "address_oktmo": "92730000",
+    "geometry_oktmo": "92730000",
+    "disagreement": false,
+    "flats": 340,
+    "override_source": null
+  },
+  {
+    "objId": "69073",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 253,
+    "override_source": null
+  },
+  {
+    "objId": "69074",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 209,
+    "override_source": null
+  },
+  {
+    "objId": "69111",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 250,
+    "override_source": null
+  },
+  {
+    "objId": "69121",
+    "method": "geometry",
+    "assigned_oktmo": "92730000",
+    "address_oktmo": "92730000",
+    "geometry_oktmo": "92730000",
+    "disagreement": false,
+    "flats": 90,
+    "override_source": null
+  },
+  {
+    "objId": "69185",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 570,
+    "override_source": null
+  },
+  {
+    "objId": "69536",
+    "method": "geometry",
+    "assigned_oktmo": "92730000",
+    "address_oktmo": "92730000",
+    "geometry_oktmo": "92730000",
+    "disagreement": false,
+    "flats": 0,
+    "override_source": null
+  },
+  {
+    "objId": "69585",
+    "method": "geometry",
+    "assigned_oktmo": "92730000",
+    "address_oktmo": "92730000",
+    "geometry_oktmo": "92730000",
+    "disagreement": false,
+    "flats": 0,
+    "override_source": null
+  },
+  {
+    "objId": "69602",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 0,
+    "override_source": null
+  },
+  {
+    "objId": "69633",
+    "method": "geometry",
+    "assigned_oktmo": "92730000",
+    "address_oktmo": "92730000",
+    "geometry_oktmo": "92730000",
+    "disagreement": false,
+    "flats": 60,
+    "override_source": null
+  },
+  {
+    "objId": "69634",
+    "method": "geometry",
+    "assigned_oktmo": "92730000",
+    "address_oktmo": "92730000",
+    "geometry_oktmo": "92730000",
+    "disagreement": false,
+    "flats": 96,
+    "override_source": null
+  },
+  {
+    "objId": "69660",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 27,
+    "override_source": null
+  },
+  {
+    "objId": "69738",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 33,
+    "override_source": null
+  },
+  {
+    "objId": "69954",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 21,
+    "override_source": null
+  },
+  {
+    "objId": "69955",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 0,
+    "override_source": null
+  },
+  {
+    "objId": "69956",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 0,
+    "override_source": null
+  },
+  {
+    "objId": "69957",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 0,
+    "override_source": null
+  },
+  {
+    "objId": "69991",
+    "method": "geometry",
+    "assigned_oktmo": "92730000",
+    "address_oktmo": "92730000",
+    "geometry_oktmo": "92730000",
+    "disagreement": false,
+    "flats": 150,
+    "override_source": null
+  },
+  {
+    "objId": "70432",
+    "method": "geometry",
+    "assigned_oktmo": "92608000",
+    "address_oktmo": "92608000",
+    "geometry_oktmo": "92608000",
+    "disagreement": false,
+    "flats": 161,
+    "override_source": null
+  },
+  {
+    "objId": "70660",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 72,
+    "override_source": null
+  },
+  {
+    "objId": "70824",
+    "method": "geometry",
+    "assigned_oktmo": "92634000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92634000",
+    "disagreement": false,
+    "flats": 221,
+    "override_source": null
+  },
+  {
+    "objId": "70825",
+    "method": "geometry",
+    "assigned_oktmo": "92634000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92634000",
+    "disagreement": false,
+    "flats": 280,
+    "override_source": null
+  },
+  {
+    "objId": "70848",
+    "method": "geometry",
+    "assigned_oktmo": "92648000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92648000",
+    "disagreement": false,
+    "flats": 365,
+    "override_source": null
+  },
+  {
+    "objId": "70950",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 337,
+    "override_source": null
+  },
+  {
+    "objId": "70978",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 332,
+    "override_source": null
+  },
+  {
+    "objId": "71006",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 339,
+    "override_source": null
+  },
+  {
+    "objId": "71007",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 324,
+    "override_source": null
+  },
+  {
+    "objId": "71008",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 170,
+    "override_source": null
+  },
+  {
+    "objId": "71051",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 481,
+    "override_source": null
+  },
+  {
+    "objId": "71087",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 335,
+    "override_source": null
+  },
+  {
+    "objId": "71119",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 150,
+    "override_source": null
+  },
+  {
+    "objId": "71188",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 297,
+    "override_source": null
+  },
+  {
+    "objId": "71326",
+    "method": "geometry",
+    "assigned_oktmo": "92644000",
+    "address_oktmo": "92644000",
+    "geometry_oktmo": "92644000",
+    "disagreement": false,
+    "flats": 384,
+    "override_source": null
+  },
+  {
+    "objId": "71339",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 569,
+    "override_source": null
+  },
+  {
+    "objId": "71349",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 176,
+    "override_source": null
+  },
+  {
+    "objId": "71350",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 177,
+    "override_source": null
+  },
+  {
+    "objId": "71379",
+    "method": "geometry",
+    "assigned_oktmo": "92644000",
+    "address_oktmo": "92644000",
+    "geometry_oktmo": "92644000",
+    "disagreement": false,
+    "flats": 198,
+    "override_source": null
+  },
+  {
+    "objId": "71502",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": "92628000",
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 213,
+    "override_source": null
+  },
+  {
+    "objId": "71744",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 591,
+    "override_source": null
+  },
+  {
+    "objId": "71772",
+    "method": "geometry",
+    "assigned_oktmo": "92644000",
+    "address_oktmo": "92644000",
+    "geometry_oktmo": "92644000",
+    "disagreement": false,
+    "flats": 304,
+    "override_source": null
+  },
+  {
+    "objId": "71834",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 228,
+    "override_source": null
+  },
+  {
+    "objId": "71842",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 734,
+    "override_source": null
+  },
+  {
+    "objId": "72019",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 0,
+    "override_source": null
+  },
+  {
+    "objId": "72093",
+    "method": "geometry",
+    "assigned_oktmo": "92644000",
+    "address_oktmo": "92644000",
+    "geometry_oktmo": "92644000",
+    "disagreement": false,
+    "flats": 0,
+    "override_source": null
+  },
+  {
+    "objId": "72160",
+    "method": "geometry",
+    "assigned_oktmo": "92730000",
+    "address_oktmo": "92730000",
+    "geometry_oktmo": "92730000",
+    "disagreement": false,
+    "flats": 80,
+    "override_source": null
+  },
+  {
+    "objId": "72458",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 1312,
+    "override_source": null
+  },
+  {
+    "objId": "72571",
+    "method": "geometry",
+    "assigned_oktmo": "92730000",
+    "address_oktmo": "92730000",
+    "geometry_oktmo": "92730000",
+    "disagreement": false,
+    "flats": 0,
+    "override_source": null
+  },
+  {
+    "objId": "72588",
+    "method": "geometry",
+    "assigned_oktmo": "92648000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92648000",
+    "disagreement": false,
+    "flats": 244,
+    "override_source": null
+  },
+  {
+    "objId": "72680",
+    "method": "geometry",
+    "assigned_oktmo": "92644000",
+    "address_oktmo": "92644000",
+    "geometry_oktmo": "92644000",
+    "disagreement": false,
+    "flats": 162,
+    "override_source": null
+  },
+  {
+    "objId": "72741",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 222,
+    "override_source": null
+  },
+  {
+    "objId": "72742",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 136,
+    "override_source": null
+  },
+  {
+    "objId": "72743",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 222,
+    "override_source": null
+  },
+  {
+    "objId": "72744",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 0,
+    "override_source": null
+  },
+  {
+    "objId": "72745",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": "92628000",
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 114,
+    "override_source": null
+  },
+  {
+    "objId": "72746",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": "92628000",
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 239,
+    "override_source": null
+  },
+  {
+    "objId": "72752",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": "92628000",
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 150,
+    "override_source": null
+  },
+  {
+    "objId": "72808",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 108,
+    "override_source": null
+  },
+  {
+    "objId": "72809",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 124,
+    "override_source": null
+  },
+  {
+    "objId": "72810",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 124,
+    "override_source": null
+  },
+  {
+    "objId": "72811",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 124,
+    "override_source": null
+  },
+  {
+    "objId": "72812",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 174,
+    "override_source": null
+  },
+  {
+    "objId": "72813",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 208,
+    "override_source": null
+  },
+  {
+    "objId": "72814",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 208,
+    "override_source": null
+  },
+  {
+    "objId": "72965",
+    "method": "geometry",
+    "assigned_oktmo": "92644000",
+    "address_oktmo": "92644000",
+    "geometry_oktmo": "92644000",
+    "disagreement": false,
+    "flats": 240,
+    "override_source": null
+  },
+  {
+    "objId": "73065",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 152,
+    "override_source": null
+  },
+  {
+    "objId": "73066",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 152,
+    "override_source": null
+  },
+  {
+    "objId": "73117",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 465,
+    "override_source": null
+  },
+  {
+    "objId": "73206",
+    "method": "geometry",
+    "assigned_oktmo": "92730000",
+    "address_oktmo": "92730000",
+    "geometry_oktmo": "92730000",
+    "disagreement": false,
+    "flats": 243,
+    "override_source": null
+  },
+  {
+    "objId": "73219",
+    "method": "geometry",
+    "assigned_oktmo": "92730000",
+    "address_oktmo": "92730000",
+    "geometry_oktmo": "92730000",
+    "disagreement": false,
+    "flats": 197,
+    "override_source": null
+  },
+  {
+    "objId": "73222",
+    "method": "geometry",
+    "assigned_oktmo": "92634000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92634000",
+    "disagreement": false,
+    "flats": 58,
+    "override_source": null
+  },
+  {
+    "objId": "73225",
+    "method": "geometry",
+    "assigned_oktmo": "92634000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92634000",
+    "disagreement": false,
+    "flats": 58,
+    "override_source": null
+  },
+  {
+    "objId": "73226",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 244,
+    "override_source": null
+  },
+  {
+    "objId": "73227",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 182,
+    "override_source": null
+  },
+  {
+    "objId": "73228",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 0,
+    "override_source": null
+  },
+  {
+    "objId": "73229",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 0,
+    "override_source": null
+  },
+  {
+    "objId": "73243",
+    "method": "verified_locality",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": null,
+    "geometry_oktmo": null,
+    "disagreement": false,
+    "flats": 171,
+    "override_source": "https://zelenodolsk.tatarstan.ru/rural_settlements/osinovo/ispolcom.htm"
+  },
+  {
+    "objId": "73250",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 207,
+    "override_source": null
+  },
+  {
+    "objId": "73254",
+    "method": "geometry",
+    "assigned_oktmo": "92628000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92628000",
+    "disagreement": false,
+    "flats": 162,
+    "override_source": null
+  },
+  {
+    "objId": "73286",
+    "method": "geometry",
+    "assigned_oktmo": "92634000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92634000",
+    "disagreement": false,
+    "flats": 45,
+    "override_source": null
+  },
+  {
+    "objId": "73324",
+    "method": "geometry",
+    "assigned_oktmo": "92626000",
+    "address_oktmo": "92626000",
+    "geometry_oktmo": "92626000",
+    "disagreement": false,
+    "flats": 180,
+    "override_source": null
+  },
+  {
+    "objId": "73387",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 561,
+    "override_source": null
+  },
+  {
+    "objId": "73443",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 754,
+    "override_source": null
+  },
+  {
+    "objId": "73519",
+    "method": "geometry",
+    "assigned_oktmo": "92622000",
+    "address_oktmo": "92622000",
+    "geometry_oktmo": "92622000",
+    "disagreement": false,
+    "flats": 96,
+    "override_source": null
+  },
+  {
+    "objId": "73520",
+    "method": "geometry",
+    "assigned_oktmo": "92622000",
+    "address_oktmo": "92622000",
+    "geometry_oktmo": "92622000",
+    "disagreement": false,
+    "flats": 142,
+    "override_source": null
+  },
+  {
+    "objId": "73521",
+    "method": "geometry",
+    "assigned_oktmo": "92622000",
+    "address_oktmo": "92622000",
+    "geometry_oktmo": "92622000",
+    "disagreement": false,
+    "flats": 248,
+    "override_source": null
+  },
+  {
+    "objId": "73573",
+    "method": "geometry",
+    "assigned_oktmo": "92634000",
+    "address_oktmo": null,
+    "geometry_oktmo": "92634000",
+    "disagreement": false,
+    "flats": 183,
+    "override_source": null
+  },
+  {
+    "objId": "73621",
+    "method": "geometry",
+    "assigned_oktmo": "92626000",
+    "address_oktmo": "92626000",
+    "geometry_oktmo": "92626000",
+    "disagreement": false,
+    "flats": 208,
+    "override_source": null
+  },
+  {
+    "objId": "73646",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 39,
+    "override_source": null
+  },
+  {
+    "objId": "73718",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 69,
+    "override_source": null
+  },
+  {
+    "objId": "73837",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 117,
+    "override_source": null
+  },
+  {
+    "objId": "73858",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 368,
+    "override_source": null
+  },
+  {
+    "objId": "73960",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 220,
+    "override_source": null
+  },
+  {
+    "objId": "74069",
+    "method": "geometry",
+    "assigned_oktmo": "92701000",
+    "address_oktmo": "92701000",
+    "geometry_oktmo": "92701000",
+    "disagreement": false,
+    "flats": 227,
+    "override_source": null
+  }
+]

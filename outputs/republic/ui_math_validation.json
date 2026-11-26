@@ -1,0 +1,17 @@
+{
+  "profiles": 45,
+  "scopes": {
+    "all": 45,
+    "Казанская": 15,
+    "Камская": 18,
+    "Альметьевская": 9,
+    "outside": 7
+  },
+  "scenario_population_total": 1000,
+  "scenario_equalize_total": 1000,
+  "scenario_mass_error": 4.547473508864641e-13,
+  "baseline_max_error": 1.1102230246251565e-16,
+  "delayed_access_not_increased": true,
+  "offline": true,
+  "browser_checked": false
+}

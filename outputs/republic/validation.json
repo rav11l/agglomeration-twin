@@ -1,0 +1,29 @@
+{
+  "municipalities": 45,
+  "districts": 43,
+  "urban_okrugs": 2,
+  "profiles": 45,
+  "geometries": 45,
+  "directed_routes": 2025,
+  "population_total": 4003016,
+  "employees_total": 958116,
+  "allocation_conservation_error": 0.0,
+  "housing_input_buildings": 314,
+  "housing_input_flats": 67291,
+  "housing_assigned_buildings": 314,
+  "housing_assigned_flats": 67291,
+  "housing_unmatched": 0,
+  "housing_disagreements": 0,
+  "housing_verified_locality": 1,
+  "vacancy_audit": {
+    "duplicate": 0,
+    "unmatched": 10,
+    "multi_municipality": 89,
+    "assigned": 10302
+  },
+  "vacancy_municipalities_with_examples": 45,
+  "vacancy_region_complete": true,
+  "vacancy_portal_total": 10401,
+  "vacancy_unique_collected": 10401,
+  "vacancy_unassigned": 99
+}

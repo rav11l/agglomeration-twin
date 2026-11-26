@@ -1,0 +1,96 @@
+"""Build a Tilda HTML block, isolated from the existing twin by Shadow DOM.
+
+Usage: python scripts/build_republic_embed.py --data-ref <immutable Git commit>
+The standalone HTML remains an offline alternative. Existing sections are kept.
+"""
+import argparse
+import hashlib
+import json
+import re
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+START = '<!-- republic-v0.3.1:start -->'
+END = '<!-- republic-v0.3.1:end -->'
+
+
+def build(data_ref):
+    if not re.fullmatch(r'[0-9a-f]{40}', data_ref):
+        raise ValueError('Use an immutable 40-character Git commit SHA.')
+    template = (ROOT / 'site/republic_template.html').read_text(encoding='utf-8')
+    markup = template.split('<main id="app">', 1)[1].split('</main>', 1)[0]
+    markup = markup[markup.index('<div class="stats"'):]
+    markup = markup.split('<footer class="footer">', 1)[0]
+    markup = markup.replace('HTML работает без подключения к сети.',
+                            'Данные этого блока загружаются из зафиксированной версии Git; автономный HTML доступен в выпуске.')
+    css = (ROOT / 'site/republic.css').read_text(encoding='utf-8')
+    css = css.replace(':root{', ':host{').replace('}body{', '}:host{')
+    css += '\n:host{display:block;background:#FBFAF7}#app{padding:0;max-width:none}.module-heading{padding:0 0 18px}.module-heading p{font-size:14px;color:var(--muted);margin-top:9px}'
+    code = template.split('<script>\n', 1)[1].split('</script>', 1)[0]
+    code = code.replace("const D=JSON.parse(document.getElementById('twin-data').textContent),N=D.profiles.length;",
+                        'const N=D.profiles.length;')
+    code = code.replace('document.getElementById(', 'root.getElementById(')
+    code = code.replace('document.querySelectorAll(', 'root.querySelectorAll(')
+    heading = '<div class="module-heading"><h2>Работа, вакансии и жильё во всех 45 МО</h2><p>43 района, Казань и Набережные Челны · версия 0.3.1 · данные собраны 26 ноября 2026 года</p></div>'
+    html = '<style>' + css + '</style><div id="app">' + heading + markup + '</div>'
+    compressed = ROOT / 'outputs/republic/enrichment.json.gz'
+    digest = hashlib.sha256(compressed.read_bytes()).hexdigest()
+    url = f'https://raw.githubusercontent.com/rav11l/agglomeration-twin/{data_ref}/outputs/republic/enrichment.json.gz'
+    module = START + '''
+<section id="tw-republic-2026" style="max-width:1080px;margin:28px auto;padding:0 16px;box-sizing:border-box">
+  <p role="status">Загрузка карты всех 45 муниципалитетов…</p>
+</section>
+<script>
+(() => {
+  'use strict';
+  const host=document.getElementById('tw-republic-2026');
+  if(!host||host.shadowRoot)return;
+  const root=host.attachShadow({mode:'open'});
+  host.replaceChildren();
+  root.innerHTML='<p role="status" style="font:14px/1.6 Inter,sans-serif;color:#5F6873">Загрузка карты всех 45 муниципалитетов…</p>';
+  async function load(){
+    try{
+      if(!window.DecompressionStream)throw new Error('browser');
+      const response=await fetch(DATA_URL,{signal:AbortSignal.timeout(60000)});
+      if(!response.ok)throw new Error('HTTP '+response.status);
+      const buffer=await response.arrayBuffer();
+      const actual=[...new Uint8Array(await crypto.subtle.digest('SHA-256',buffer))].map(x=>x.toString(16).padStart(2,'0')).join('');
+      if(actual!==DATA_SHA256)throw new Error('checksum');
+      const stream=new Blob([buffer]).stream().pipeThrough(new DecompressionStream('gzip'));
+      const D=await new Response(stream).json();
+      if(D.version!=='0.3.1'||D.profiles.length!==45||!D.checks.vacancy_region_complete)throw new Error('schema');
+      root.innerHTML=MODULE_HTML;
+      (function(root,D){
+MODULE_CODE
+      })(root,D);
+    }catch(error){
+      console.error('Republic twin could not load:',error);
+      root.innerHTML='<div style="font:14px/1.6 Inter,sans-serif;padding:18px;border:1px solid #E2DED6;background:#FBFAF7"><p>Не удалось загрузить данные карты. Проверьте подключение или откройте автономный HTML из <a href="https://github.com/rav11l/agglomeration-twin" target="_blank" rel="noopener">репозитория и выпуска Zenodo</a>.</p><button type="button">Повторить загрузку</button></div>';
+      root.querySelector('button').addEventListener('click',load);
+    }
+  }
+  const DATA_URL=__URL__,DATA_SHA256=__HASH__,MODULE_HTML=__HTML__;
+  load();
+})();
+</script>
+''' + END
+    module = module.replace('MODULE_CODE', code).replace('__URL__', json.dumps(url))
+    module = module.replace('__HASH__', json.dumps(digest)).replace('__HTML__', json.dumps(html, ensure_ascii=False))
+    (ROOT / 'site/republic_embed.html').write_text(module, encoding='utf-8')
+    page_path = ROOT / 'site/agglomeration-twin_page.html'
+    page = page_path.read_text(encoding='utf-8')
+    page = re.sub(re.escape(START) + r'.*?' + re.escape(END), '', page, flags=re.S)
+    anchor = '<section id="tw-s-lvl"'
+    if page.count(anchor) != 1:
+        raise ValueError('The existing page insertion point changed; review before replacing.')
+    page = page.replace(anchor, module + '\n' + anchor)
+    page = page.replace('Версия 0.1.3 · 04.11.2026', 'Версия 0.3.1 · 26.11.2026')
+    page = page.replace('Version 0.1.3 · 4 Nov 2026', 'Version 0.3.1 · 26 Nov 2026')
+    page_path.write_text(page, encoding='utf-8')
+    print(json.dumps({'embed_bytes':len(module.encode('utf-8')), 'data_ref':data_ref, 'sha256':digest}))
+
+
+if __name__ == '__main__':
+    parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--data-ref',required=True)
+    build(parser.parse_args().data_ref)

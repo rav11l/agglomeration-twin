@@ -1,0 +1,11 @@
+{
+  "data/southeast/baseline_2024.csv": "841b055af14481b4d7c2a7b1bd9efedf06b0019a50bdb1fac1223463dc1dd73a",
+  "data/republic/boundaries.json": "92d7ae5d74cafd0f7f28669fb8ee98c001d95e76283fd09093ccfec5c08bf594",
+  "data/districts_input.csv": "77e7913742e73910a80eaf709f2dea49e35376296bbcdcc31e00347f1b1f9757",
+  "data/osrm_minutes.csv": "e17284be94f216055c233dda5b69b8c4ec33dab4ddb149554fc5f2d9a413c5c7",
+  "data/agglomerations.json": "d119bcbd143363b393fb90c4573dd20fbf47f4eb8db11b01ede69a934f36b130",
+  "data/eisgs_rt_under_construction_2026-10-27.csv": "cbc5c232e9d3dea7126ef16b13ca0ecf4c96e16baa20a471ce2b091273ddd955",
+  "data/republic/vacancies_2026-11-26.json.gz": "b7b43ac30515cc626768f078f6db97179f0e603912b426492276dccb8d58c6a0",
+  "data/republic/housing_overrides.json": "13778c49015d3338827e4f28b33edcad48e236460a54b14e83af535f9402be50",
+  "data/republic/sources.json": "93ad984cc19eac932d193ff8bb8a34611636dd210097b2e325cff59f9bcc4031"
+}

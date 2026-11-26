@@ -1,2 +1,14 @@
 __pycache__/
 .venv/
+# Reproducible large outputs and temporary collection pages; compressed inputs are tracked.
+data/republic/vacancies_2026-11-26.json
+data/republic/vacancy_pages_*/
+data/republic/vacancy_supplements_*/
+data/republic/vacancies_collection_progress.json
+outputs/republic/enrichment.json
+outputs/republic/vacancies_registry_*.csv
+outputs/republic/publication/
+outputs/republic/check_ui.js
+outputs/southeast/
+site/tatarstan_twin_*.html
+site/tatarstan_overview_*.png
