@@ -15,7 +15,9 @@ background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:16px;
 #dgl-tw a{color:var(--accent);text-decoration:none;border-bottom:1px solid rgba(29,60,92,.3)}
 #dgl-tw a:hover{border-bottom-color:var(--accent)}
 #dgl-tw b{font-weight:600}
-#dgl-tw .wrap{max-width:1080px;margin:0 auto;padding:0 max(16px,env(safe-area-inset-left,0px)) 48px max(16px,env(safe-area-inset-right,0px));display:grid;gap:22px}
+#dgl-tw .wrap{max-width:1080px;margin:0 auto;padding:0 max(16px,env(safe-area-inset-left,0px)) 48px max(16px,env(safe-area-inset-right,0px));display:grid;grid-template-columns:minmax(0,1fr);gap:22px}
+#dgl-tw .wrap>*,#dgl-tw .head>*,#dgl-tw .panel>*,#dgl-tw .grid2>*{min-width:0}
+#dgl-tw .byline,#dgl-tw .note,#dgl-tw .foot,#dgl-tw .backtop{overflow-wrap:anywhere}
 #dgl-tw .backtop{padding-top:22px;font-size:12.5px;letter-spacing:.04em}
 #dgl-tw .top{display:flex;flex-wrap:wrap;gap:12px 20px;align-items:center;justify-content:space-between;padding-bottom:14px;border-bottom:1px solid var(--line)}
 #dgl-tw .kicker{font-size:11.5px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
@@ -309,9 +311,10 @@ background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:16px;
   if(target){target.before(host);host.style.padding='0';}
   const nav=document.getElementById('tw-nav');
   if(nav&&!nav.querySelector('a[href="#tw-republic-2026"]')){
-    const link=document.createElement('a');link.href='#tw-republic-2026';
+    const link=document.createElement('a');link.href='#tw-republic-2026';link.dataset.t='tw-republic-2026';
     link.innerHTML='<span data-ru>Работа и вакансии · 45 МО</span><span data-en>Jobs and vacancies · 45 municipalities</span>';
-    nav.appendChild(link);
+    const group=nav.querySelector('a[data-t="tw-eco"]')?.parentElement||nav;
+    group.appendChild(link);
   }
   const root=host.attachShadow({mode:'open'});
   host.replaceChildren();
@@ -987,7 +990,7 @@ build();
 </script>
 
 <script>
-(function(){const badge=document.querySelector('#dgl-tw .byline .badge');if(!badge)return;const ru=badge.querySelector('[data-ru]'),en=badge.querySelector('[data-en]');if(ru)ru.textContent='Версия 0.3.1 · 26.11.2026';if(en)en.textContent='Version 0.3.1 · 26 Nov 2026';const archiveRu=badge.nextElementSibling,archiveEn=archiveRu&&archiveRu.nextElementSibling;if(archiveRu&&archiveRu.hasAttribute('data-ru')&&archiveRu.firstChild.nodeType===3)archiveRu.firstChild.nodeValue='Данные и код двойника — ';if(archiveEn&&archiveEn.hasAttribute('data-en')&&archiveEn.firstChild.nodeType===3)archiveEn.firstChild.nodeValue='Twin data and code — ';badge.parentElement.querySelectorAll('a[href*="zenodo.23725482"]').forEach(a=>{a.href='https://doi.org/10.5281/zenodo.24563288';a.textContent='DOI 10.5281/zenodo.24563288'});const scope=document.getElementById('tw-archive-scope');if(scope)scope.remove()})();
+(function(){const badge=document.querySelector('#dgl-tw .byline .badge');if(!badge)return;const ru=badge.querySelector('[data-ru]'),en=badge.querySelector('[data-en]');if(ru)ru.textContent='Версия 0.3.1 · 26.11.2026';if(en)en.textContent='Version 0.3.1 · 26 Nov 2026';const archiveRu=badge.nextElementSibling,archiveEn=archiveRu&&archiveRu.nextElementSibling;if(archiveRu&&archiveRu.hasAttribute('data-ru')&&archiveRu.firstChild.nodeType===3)archiveRu.firstChild.nodeValue='Данные и код двойника — ';if(archiveEn&&archiveEn.hasAttribute('data-en')&&archiveEn.firstChild.nodeType===3)archiveEn.firstChild.nodeValue='Twin data and code — ';const archiveLinks=badge.parentElement.querySelectorAll('a[href*="zenodo.23725482"],a[href*="zenodo.24563288"]');archiveLinks.forEach(a=>{a.href='https://doi.org/10.5281/zenodo.23725482';a.textContent='Zenodo';a.title='Published archive · v0.1.3';});const release=document.createElement('span');release.className='note';release.innerHTML='<br><span data-ru>Выпуск 0.3.1: DOI 10.5281/zenodo.24563288 зарезервирован, публикация готовится. Текущие данные и код — в GitHub.</span><span data-en>Release 0.3.1: DOI 10.5281/zenodo.24563288 is reserved; publication is pending. Current data and code are on GitHub.</span>';badge.parentElement.append(release);const scope=document.getElementById('tw-archive-scope');if(scope)scope.remove()})();
 </script>
 
 
@@ -1021,4 +1024,5 @@ build();
   label();visibility();
 })();
 </script>
+
 

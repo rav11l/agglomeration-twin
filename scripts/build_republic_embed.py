@@ -49,9 +49,10 @@ def build(data_ref):
   if(target){target.before(host);host.style.padding='0';}
   const nav=document.getElementById('tw-nav');
   if(nav&&!nav.querySelector('a[href="#tw-republic-2026"]')){
-    const link=document.createElement('a');link.href='#tw-republic-2026';
+    const link=document.createElement('a');link.href='#tw-republic-2026';link.dataset.t='tw-republic-2026';
     link.innerHTML='<span data-ru>Работа и вакансии · 45 МО</span><span data-en>Jobs and vacancies · 45 municipalities</span>';
-    nav.appendChild(link);
+    const group=nav.querySelector('a[data-t="tw-eco"]')?.parentElement||nav;
+    group.appendChild(link);
   }
   const root=host.attachShadow({mode:'open'});
   host.replaceChildren();
@@ -116,3 +117,4 @@ if __name__ == '__main__':
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--data-ref',required=True)
     build(parser.parse_args().data_ref)
+
