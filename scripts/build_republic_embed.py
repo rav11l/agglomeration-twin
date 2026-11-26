@@ -25,12 +25,18 @@ def build(data_ref):
                             'Данные этого блока загружаются из зафиксированной версии Git; автономный HTML доступен в выпуске.')
     css = (ROOT / 'site/republic.css').read_text(encoding='utf-8')
     css = css.replace(':root{', ':host{').replace('}body{', '}:host{')
-    css += '\n:host{display:block;background:#FBFAF7}#app{padding:0;max-width:none}.module-heading{padding:0 0 18px}.module-heading p{font-size:14px;color:var(--muted);margin-top:9px}'
+    css += '\n' + (ROOT / 'site/republic_embed_theme.css').read_text(encoding='utf-8').strip()
+    css += '#app{padding:0;max-width:none}.module-heading{padding:0 0 18px}.module-heading p{font-size:14px;color:var(--muted);margin-top:9px}'
+    css = css.replace('linear-gradient(90deg,#E7EEF6,#1D4E8C)',
+                      'linear-gradient(90deg,#E6E9EE,#142233)')
+    css = css.replace('background:#5F86AE', 'background:#6B86A3')
     code = template.split('<script>\n', 1)[1].split('</script>', 1)[0]
     code = code.replace("const D=JSON.parse(document.getElementById('twin-data').textContent),N=D.profiles.length;",
                         'const N=D.profiles.length;')
     code = code.replace('document.getElementById(', 'root.getElementById(')
     code = code.replace('document.querySelectorAll(', 'root.querySelectorAll(')
+    code = code.replace('b=[29,78,140]', 'b=[20,34,51]')
+    code = code.replace('a=[231,238,246]', 'a=[230,233,238]')
     heading = '<div class="module-heading"><h2>Работа, вакансии и жильё во всех 45 МО</h2><p>43 района, Казань и Набережные Челны · версия 0.3.1 · данные собраны 26 ноября 2026 года</p></div>'
     html = '<style>' + css + '</style><div id="app">' + heading + markup + '</div>'
     compressed = ROOT / 'outputs/republic/enrichment.json.gz'
@@ -56,7 +62,7 @@ def build(data_ref):
   }
   const root=host.attachShadow({mode:'open'});
   host.replaceChildren();
-  root.innerHTML='<p role="status" style="font:14px/1.6 Inter,sans-serif;color:#5F6873">Загрузка карты всех 45 муниципалитетов…</p>';
+  root.innerHTML='<p role="status" style="font:14px/1.6 Jost,sans-serif;color:#5F6873">Загрузка карты всех 45 муниципалитетов…</p>';
   async function load(){
     try{
       if(!window.DecompressionStream)throw new Error('browser');
@@ -87,7 +93,7 @@ MODULE_CODE
       })(root,D);
     }catch(error){
       console.error('Republic twin could not load:',error);
-      root.innerHTML='<div style="font:14px/1.6 Inter,sans-serif;padding:18px;border:1px solid #E2DED6;background:#FBFAF7"><p>Не удалось загрузить данные карты. Проверьте подключение или откройте автономный HTML из <a href="https://github.com/rav11l/agglomeration-twin" target="_blank" rel="noopener">репозитория и выпуска Zenodo</a>.</p><button type="button">Повторить загрузку</button></div>';
+      root.innerHTML='<div style="font:14px/1.6 Jost,sans-serif;padding:18px;border:1px solid #E2DED6;background:#FBFAF7"><p>Не удалось загрузить данные карты. Проверьте подключение или откройте автономный HTML из <a href="https://github.com/rav11l/agglomeration-twin" target="_blank" rel="noopener">репозитория и выпуска Zenodo</a>.</p><button type="button">Повторить загрузку</button></div>';
       root.querySelector('button').addEventListener('click',load);
     }
   }
