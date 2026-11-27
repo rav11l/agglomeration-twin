@@ -10,8 +10,8 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-START = '<!-- republic-v0.3.1:start -->'
-END = '<!-- republic-v0.3.1:end -->'
+START = '<!-- republic-v0.3.2:start -->'
+END = '<!-- republic-v0.3.2:end -->'
 
 
 def build(data_ref):
@@ -33,11 +33,12 @@ def build(data_ref):
     code = template.split('<script>\n', 1)[1].split('</script>', 1)[0]
     code = code.replace("const D=JSON.parse(document.getElementById('twin-data').textContent),N=D.profiles.length;",
                         'const N=D.profiles.length;')
+    code = code.replace('__TWIN_I18N__', (ROOT / 'site/republic_i18n.js').read_text(encoding='utf-8'))
     code = code.replace('document.getElementById(', 'root.getElementById(')
     code = code.replace('document.querySelectorAll(', 'root.querySelectorAll(')
     code = code.replace('b=[29,78,140]', 'b=[20,34,51]')
     code = code.replace('a=[231,238,246]', 'a=[230,233,238]')
-    heading = '<div class="module-heading"><h2>Работа, вакансии и жильё во всех 45 МО</h2><p>43 района, Казань и Набережные Челны · версия 0.3.1 · данные собраны 26 ноября 2026 года</p></div>'
+    heading = '<div class="module-heading"><h2>Работа, вакансии и жильё во всех 45 МО</h2><p>43 района, Казань и Набережные Челны · версия 0.3.2 · данные собраны 26 ноября 2026 года</p></div>'
     html = '<style>' + css + '</style><div id="app">' + heading + markup + '</div>'
     compressed = ROOT / 'outputs/republic/enrichment.json.gz'
     digest = hashlib.sha256(compressed.read_bytes()).hexdigest()
@@ -51,6 +52,8 @@ def build(data_ref):
   'use strict';
   const host=document.getElementById('tw-republic-2026');
   if(!host||host.shadowRoot)return;
+  const isEn=()=>document.querySelector('#dgl-tw')?.dataset.lang==='en';
+  const text=(ru,en)=>isEn()?en:ru;
   const target=document.getElementById('tw-s-lvl');
   if(target){target.before(host);host.style.padding='0';}
   const nav=document.getElementById('tw-nav');
@@ -62,7 +65,7 @@ def build(data_ref):
   }
   const root=host.attachShadow({mode:'open'});
   host.replaceChildren();
-  root.innerHTML='<p role="status" style="font:14px/1.6 Jost,sans-serif;color:#5F6873">Загрузка карты всех 45 муниципалитетов…</p>';
+  root.innerHTML='<p role="status" style="font:14px/1.6 Jost,sans-serif;color:#5F6873">'+text('Загрузка карты всех 45 муниципалитетов…','Loading the map of all 45 municipalities…')+'</p>';
   async function load(){
     try{
       if(!window.DecompressionStream)throw new Error('browser');
@@ -76,7 +79,7 @@ def build(data_ref):
         if(bytes.length!==to-from+1)throw new Error('range length');
         loaded+=bytes.length;
         const status=root.querySelector('[role="status"]');
-        if(status)status.textContent='Загрузка данных карты · '+Math.round(loaded/total*100)+'%';
+        if(status)status.textContent=text('Загрузка данных карты · ','Loading map data · ')+Math.round(loaded/total*100)+'%';
         return bytes;
       }));
       const combined=new Uint8Array(total);
@@ -86,7 +89,7 @@ def build(data_ref):
       if(actual!==DATA_SHA256)throw new Error('checksum');
       const stream=new Blob([buffer]).stream().pipeThrough(new DecompressionStream('gzip'));
       const D=await new Response(stream).json();
-      if(D.version!=='0.3.1'||D.profiles.length!==45||!D.checks.vacancy_region_complete)throw new Error('schema');
+      if(D.version!=='0.3.2'||D.profiles.length!==45||!D.checks.vacancy_region_complete)throw new Error('schema');
       root.innerHTML=MODULE_HTML;
       (function(root,D){
 MODULE_CODE
@@ -94,6 +97,7 @@ MODULE_CODE
     }catch(error){
       console.error('Republic twin could not load:',error);
       root.innerHTML='<div style="font:14px/1.6 Jost,sans-serif;padding:18px;border:1px solid #E2DED6;background:#FBFAF7"><p>Не удалось загрузить данные карты. Проверьте подключение или откройте автономный HTML из <a href="https://github.com/rav11l/agglomeration-twin" target="_blank" rel="noopener">репозитория и выпуска Zenodo</a>.</p><button type="button">Повторить загрузку</button></div>';
+      if(isEn()){root.querySelector('p').innerHTML='Map data could not be loaded. Check your connection or open the offline HTML from the <a href="https://github.com/rav11l/agglomeration-twin" target="_blank" rel="noopener">repository or Zenodo release</a>.';root.querySelector('button').textContent='Retry loading';}
       root.querySelector('button').addEventListener('click',load);
     }
   }
@@ -108,13 +112,13 @@ MODULE_CODE
     (ROOT / 'site/republic_embed.html').write_text(module, encoding='utf-8')
     page_path = ROOT / 'site/agglomeration-twin_page.html'
     page = page_path.read_text(encoding='utf-8')
-    page = re.sub(re.escape(START) + r'.*?' + re.escape(END), '', page, flags=re.S)
+    page = re.sub(r'<!-- republic-v[0-9.]+:start -->.*?<!-- republic-v[0-9.]+:end -->', '', page, flags=re.S)
     anchor = '<section id="tw-s-lvl"'
     if page.count(anchor) != 1:
         raise ValueError('The existing page insertion point changed; review before replacing.')
     page = page.replace(anchor, module + '\n' + anchor)
-    page = page.replace('Версия 0.1.3 · 04.11.2026', 'Версия 0.3.1 · 26.11.2026')
-    page = page.replace('Version 0.1.3 · 4 Nov 2026', 'Version 0.3.1 · 26 Nov 2026')
+    page = page.replace('Версия 0.1.3 · 04.11.2026', 'Версия 0.3.2 · 26.11.2026')
+    page = page.replace('Version 0.1.3 · 4 Nov 2026', 'Version 0.3.2 · 26 Nov 2026')
     page_path.write_text(page, encoding='utf-8')
     print(json.dumps({'embed_bytes':len(module.encode('utf-8')), 'data_ref':data_ref, 'sha256':digest}))
 

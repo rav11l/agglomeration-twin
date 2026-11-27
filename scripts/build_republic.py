@@ -249,6 +249,7 @@ def build():
     snapshot = read_json(vacancy_path)
     vacancy_complete = validate_vacancy_snapshot(snapshot)
     vgroups, vaudit, unassigned = classify_vacancies(snapshot, rows)
+    english_names = {r['oktmo']: r['name_en'] for r in read_csv(ROOT / 'data/districts_input.csv')}
     profiles = []
     for i, r in enumerate(rows):
         memberships = [{'name': name, 'belt': 1 if r['slug'] in agg['ring1'] else 2}
@@ -256,7 +257,7 @@ def build():
                        if r['slug'] in agg['ring1'] or r['slug'] in agg['ring2']]
         own = r['employees'] * w[i][i]
         weighted_jobs = sum(rows[j]['employees'] * w[i][j] for j in range(45))
-        profiles.append({**r, 'memberships': memberships, 'access': access[i],
+        profiles.append({**r, 'name_en': english_names[r['oktmo']], 'short_en': english_names[r['oktmo']].replace(' District', ''), 'memberships': memberships, 'access': access[i],
                          'workers_per100': 100 * r['employees'] / r['population'],
                          'outside_weight': 1 - own / weighted_jobs,
                          'is_core': r['slug'] in aggs['cores'].values(),
@@ -307,7 +308,7 @@ def build():
                     'note': 'Объект ЕИСЖС 73243 отнесён к Зеленодольскому району по адресу '
                             'Осиновского сельского поселения. Исходные координаты сохранены.'})
     payload = {
-        'version': '0.3.1', 'date': '2026-11-26', 'profiles': profiles,
+        'version': '0.3.2', 'date': '2026-11-27', 'profiles': profiles,
         'districts': rows, 'times': times, 'geometry': geo_rows, 'agglomerations': aggs,
         'sources': sources, 'checks': checks,
         'vacancy_collection': {k: v for k, v in snapshot.items() if k != 'records'},
@@ -315,7 +316,7 @@ def build():
         'scope_note': '43 муниципальных района и два городских округа; границы и данные исходного двойника.',
         'missing': ([] if vacancy_complete else ['Полный сопоставимый срез вакансий по всем 45 МО']) + [
                     'Наблюдаемая матрица трудовых поездок всей республики',
-                    'Работники МСП и точное размещение всех рабочих мест',
+                    'Работники малого бизнеса и точное размещение всех рабочих мест',
                     'Полные расписания автобусов и служебных перевозок',
                     'Покупки жителей по месту назначения и бюджетный эффект',
                     'Сопоставимый рынок труда за границами Татарстана'],
@@ -330,11 +331,11 @@ def build():
     target = ROOT / 'site/tatarstan_twin_2026-11-26.html'
     fonts = ROOT / 'site/republic_fonts.css'
     css = (fonts.read_text(encoding='utf-8') if fonts.exists() else '') + (ROOT / 'site/republic.css').read_text(encoding='utf-8')
-    target.write_text(template.replace('__TWIN_CSS__', css)
+    target.write_text(template.replace('__TWIN_I18N__', (ROOT / 'site/republic_i18n.js').read_text(encoding='utf-8')).replace('__TWIN_CSS__', css)
                      .replace('__TWIN_DATA__', text.replace('<', '\\u003c')
                      .replace('\u2028', '\\u2028').replace('\u2029', '\\u2029')), encoding='utf-8')
     records = [{'oktmo': p['oktmo'], 'municipality': p['name'], 'population_2024': p['population'],
-                'employees_without_sme_2024': p['employees'], 'wage_2024': p['wage'],
+                'employees_excluding_small_businesses_2024': p['employees'], 'wage_2024': p['wage'],
                 'workers_per100_residents': p['workers_per100'], 'model_access_tau45': p['access'],
                 'housing_buildings_in_snapshot': p['housing']['buildings'],
                 'housing_flats_in_snapshot': p['housing']['flats'],

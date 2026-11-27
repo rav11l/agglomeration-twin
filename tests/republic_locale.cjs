@@ -1,0 +1,37 @@
+const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
+const {pathToFileURL}=require('node:url');
+const {chromium}=require('playwright');
+const root=path.resolve(__dirname,'..');
+(async()=>{
+ const b=await chromium.launch({channel:'chrome',headless:true});
+ const page=await b.newPage({viewport:{width:1365,height:900}}),errors=[];
+ page.on('pageerror',e=>errors.push(e.message));
+ await page.goto(pathToFileURL(path.join(root,'site/tatarstan_twin_2026-11-26.html')).href);
+ await page.locator('#comparison tr').first().waitFor();
+ await page.locator('[data-republic-lang="en"]').click();
+ await page.waitForFunction(()=>document.querySelector('#app').lang==='en');
+ await page.locator('[data-preset="equalize"]').click();
+ await page.locator('#scope').selectOption('Альметьевская');
+ await page.locator('#center').selectOption({label:'Almetyevsky District'});
+ await page.locator('#threshold').fill('90');await page.locator('#threshold').dispatchEvent('input');
+ await page.locator('#table-search').fill('Almetyevsky');
+ await page.waitForFunction(()=>document.querySelectorAll('#comparison tr').length===1);
+ const snapshot=await page.evaluate(()=>{
+  let texts=[];const walk=document.createTreeWalker(document.querySelector('#app'),NodeFilter.SHOW_TEXT);
+  for(let n;n=walk.nextNode();)if(!n.parentElement.closest('script,style,[data-source-text]')&&/[А-Яа-яЁё]/.test(n.data))texts.push(n.data.trim());
+  let attrs=[...document.querySelectorAll('#app [aria-label],#app [placeholder],#app [title]')].flatMap(el=>['aria-label','placeholder','title'].filter(a=>/[А-Яа-яЁё]/.test(el.getAttribute(a)||'')).map(a=>el.getAttribute(a)));
+  return {texts:[...new Set(texts)],attrs:[...new Set(attrs)],heading:document.querySelector('h1').textContent,profile:document.querySelector('#profile-title').textContent};
+ });
+ fs.writeFileSync(path.join(root,'outputs/republic/locale_qa.json'),JSON.stringify({errors,...snapshot},null,2));
+ await page.locator('[data-republic-lang="ru"]').click();
+ assert.match(await page.locator('#profile-title').innerText(),/Альметьев/);
+ assert.equal(await page.locator('#threshold').inputValue(),'90');
+ assert.equal(await page.locator('#scope').inputValue(),'Альметьевская');
+ assert.equal(await page.locator('#comparison tr').count(),1);
+ assert.equal(errors.length,0,errors.join('; '));
+ assert.deepEqual(snapshot.texts,[]);assert.deepEqual(snapshot.attrs,[]);
+ console.log(JSON.stringify({errors,untranslated:snapshot.texts,attributes:snapshot.attrs,roundTrip:'passed'}));
+ await page.setViewportSize({width:390,height:844});
+ await page.screenshot({path:path.join(root,'outputs/republic/offline_mobile_qa.png'),fullPage:false});
+ await b.close();
+})().catch(e=>{console.error(e);process.exit(1)});

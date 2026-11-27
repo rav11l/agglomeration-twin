@@ -16,13 +16,14 @@ def package():
     files=sorted(set(manifest['files']+generated))
     output=ROOT/'outputs/republic/publication'
     output.mkdir(parents=True,exist_ok=True)
-    target=output/'agglomeration-twin-v0.3.1.zip'
+    prefix='agglomeration-twin-v'+manifest['version']
+    target=output/(prefix+'.zip')
     with zipfile.ZipFile(target,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=9) as archive:
         for name in files:
             file=ROOT/name
             if not file.is_file():
                 raise FileNotFoundError(f'Build the release first: {name}')
-            archive.write(file,'agglomeration-twin-v0.3.1/'+name)
+            archive.write(file,prefix+'/'+name)
     digest=hashlib.sha256(target.read_bytes()).hexdigest()
     target.with_suffix('.zip.sha256').write_text(digest+'  '+target.name+'\n',encoding='ascii')
     print(json.dumps({'archive':str(target),'files':len(files),'bytes':target.stat().st_size,'sha256':digest}))

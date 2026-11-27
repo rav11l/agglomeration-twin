@@ -1,4 +1,4 @@
-﻿oktmo,municipality,population_2024,employees_without_sme_2024,wage_2024,workers_per100_residents,model_access_tau45,housing_buildings_in_snapshot,housing_flats_in_snapshot,vacancy_collection_state,vacancy_postings_mapped,vacancy_salary_floor_median
+﻿oktmo,municipality,population_2024,employees_excluding_small_businesses_2024,wage_2024,workers_per100_residents,model_access_tau45,housing_buildings_in_snapshot,housing_flats_in_snapshot,vacancy_collection_state,vacancy_postings_mapped,vacancy_salary_floor_median
 92701000,Казань,1318604,339504,94672.7,25.747229645898237,0.30658927739011094,164,45806,regional_snapshot,2638,52000.0
 92730000,Набережные Челны,544383,134240,87755.3,24.659109487254376,0.2983197130666659,41,7465,regional_snapshot,1731,57000.0
 92601000,Агрызский район,34401,5673,66228.7,16.490799686055638,0.08344940238564219,0,0,regional_snapshot,100,42700.0

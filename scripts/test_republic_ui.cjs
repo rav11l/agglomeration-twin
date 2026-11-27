@@ -6,7 +6,7 @@ const assert = require('node:assert/strict');
 const root = path.resolve(__dirname, '..');
 const html = fs.readFileSync(path.join(root, 'site/tatarstan_twin_2026-11-26.html'), 'utf8');
 const data = JSON.parse(html.match(/<script type="application\/json" id="twin-data">([\s\S]*?)<\/script>/)[1]);
-const script = html.match(/<script>([\s\S]*?)<\/script>/)[1].replace(/\ninit\(\);\s*$/, '');
+const script = html.match(/<script>([\s\S]*?)<\/script>/)[1].replace(/\ninit\(\);[\s\S]*$/, '');
 const box = {document: {getElementById: () => ({textContent: JSON.stringify(data)})}};
 vm.createContext(box);
 vm.runInContext(script + `

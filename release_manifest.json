@@ -1,8 +1,9 @@
 {
-  "version": "0.3.1",
+  "version": "0.3.2",
   "files": [
     ".gitignore",
     ".zenodo.json",
+    "AUDIT_FIXES.md",
     "CHANGELOG.md",
     "CITATION.cff",
     "DATA.md",
@@ -41,7 +42,9 @@
     "outputs/republic/enrichment.json.gz",
     "outputs/republic/housing_assignment_audit.json",
     "outputs/republic/input_hashes.json",
+    "outputs/republic/locale_qa.json",
     "outputs/republic/municipalities_enriched.csv",
+    "outputs/republic/page_qa.json",
     "outputs/republic/ui_math_validation.json",
     "outputs/republic/vacancies_unassigned.json",
     "outputs/republic/validation.json",
@@ -81,9 +84,13 @@
     "site/republic_embed.html",
     "site/republic_embed_theme.css",
     "site/republic_fonts.css",
+    "site/republic_i18n.js",
     "site/republic_template.html",
     "site/sitewide_audit_2026-11-26.json",
+    "site/tilda_metadata.json",
+    "site/twin_data.html",
     "tests/laishevo.test.mjs",
+    "tests/republic_locale.cjs",
     "tests/site_syntax.cjs"
   ]
 }
