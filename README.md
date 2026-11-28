@@ -1,4 +1,6 @@
-# Двойник агломераций Татарстана · v0.3.2
+# Двойник агломераций Татарстана · v0.3.3
+
+Культурный раздел v0.3.3 (28.11.2026) задаёт состав источников и методику для наследия, учреждений культуры, посещаемости, «Пушкинской карты», образования и агрегированных прослушиваний. На этой стадии сопоставимые муниципальные наблюдения не загружены; см. [CULTURE.md](CULTURE.md). Раздел на сайте отмечен как спецификация, а не готовая статистическая карта.
 
 Исправления RU/EN и фактологического аудита от 27.11.2026 описаны в [AUDIT_FIXES.md](AUDIT_FIXES.md). Данные наблюдений сохранены; изменены определения, налоговое допущение и интерпретация сценариев.
 
@@ -127,3 +129,8 @@ Settlement, simultaneous summer demand and door-to-door accessibility are sensit
 Уточнены подписи RU/EN: 45 муниципалитетов, расстояния до метро по прямой, реализованные слои и следующие шаги. Сравнение налога на жильё организаций согласовано с WP-2026-07 v1.6: условный сценарий с 2028 года — 2,2 млрд руб. для всех организаций, из них 0,72 млрд для застройщиков. Законопроект № 229-7 на 05.11.2026 не принят; оценка не является официальным прогнозом. Код страницы в основной ветке содержит эти исправления. Архив v0.1.3 в Zenodo остаётся снимком выпуска от 04.11.2026; исходные данные и расчёты этого выпуска не заменены.
 
 Post-release website corrections, 6 November 2026: RU/EN labels now distinguish municipalities, straight-line metro radii, implemented layers and next steps. The corporate-housing tax comparison follows WP-2026-07 v1.6: a conditional scenario of RUB 2.2 bn for all organisations from 2028, including RUB 0.72 bn for developers. Bill No. 229-7 was not enacted as of 5 November 2026; this is not an official revenue forecast. The main-branch page code includes these corrections. The Zenodo v0.1.3 archive remains the 4 November release snapshot; its source data and calculations have not been replaced.
+
+
+## Cultural layer (v0.3.3)
+
+The bilingual site section and [CULTURE.md](CULTURE.md) specify heritage assets, cultural facilities and visits, Pushkin Card ticket aggregates, higher-education context and privacy-safe music-listening aggregates. No new municipal observations or personal records are included in this release.
